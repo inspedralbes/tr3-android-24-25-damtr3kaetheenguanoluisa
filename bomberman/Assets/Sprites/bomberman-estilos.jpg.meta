@@ -1,0 +1,3562 @@
+fileFormatVersion: 2
+guid: b44c5c0f87d1a6f459530a6d32f5b2d2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1834994091320049587
+    second: bomberman-estilos_0
+  - first:
+      213: -6549333923870802578
+    second: bomberman-estilos_1
+  - first:
+      213: 373844407067022049
+    second: bomberman-estilos_2
+  - first:
+      213: 3643421434034329399
+    second: bomberman-estilos_3
+  - first:
+      213: -4143031605964744037
+    second: bomberman-estilos_4
+  - first:
+      213: -8437163045215756198
+    second: bomberman-estilos_5
+  - first:
+      213: -1413098346037853047
+    second: bomberman-estilos_6
+  - first:
+      213: 4618072663934581521
+    second: bomberman-estilos_7
+  - first:
+      213: -7036992378026564914
+    second: bomberman-estilos_8
+  - first:
+      213: -4265617189172344940
+    second: bomberman-estilos_9
+  - first:
+      213: -7267153284100625353
+    second: bomberman-estilos_10
+  - first:
+      213: -6637615942888802636
+    second: bomberman-estilos_11
+  - first:
+      213: 2247737990145168714
+    second: bomberman-estilos_12
+  - first:
+      213: 2689281768738039605
+    second: bomberman-estilos_13
+  - first:
+      213: 3222646378710876810
+    second: bomberman-estilos_14
+  - first:
+      213: -3746981410550694940
+    second: bomberman-estilos_15
+  - first:
+      213: 8890175260904006133
+    second: bomberman-estilos_16
+  - first:
+      213: -6815569995333149080
+    second: bomberman-estilos_17
+  - first:
+      213: -3616680996355193712
+    second: bomberman-estilos_18
+  - first:
+      213: 8403900386122109560
+    second: bomberman-estilos_19
+  - first:
+      213: 8173064591347091937
+    second: bomberman-estilos_20
+  - first:
+      213: 2038023159459038109
+    second: bomberman-estilos_21
+  - first:
+      213: 2306894681946953268
+    second: bomberman-estilos_22
+  - first:
+      213: -4602917295748118198
+    second: bomberman-estilos_23
+  - first:
+      213: -8704405413288219528
+    second: bomberman-estilos_24
+  - first:
+      213: 5590811513606715977
+    second: bomberman-estilos_25
+  - first:
+      213: 6178768635552297121
+    second: bomberman-estilos_26
+  - first:
+      213: -1632181773430976719
+    second: bomberman-estilos_27
+  - first:
+      213: 3354088291637976228
+    second: bomberman-estilos_28
+  - first:
+      213: -5289097905119915817
+    second: bomberman-estilos_29
+  - first:
+      213: -8025026462926695342
+    second: bomberman-estilos_30
+  - first:
+      213: 163078464318980856
+    second: bomberman-estilos_31
+  - first:
+      213: 7774742243924114678
+    second: bomberman-estilos_32
+  - first:
+      213: 4256538233499442536
+    second: bomberman-estilos_33
+  - first:
+      213: 1202886659477825691
+    second: bomberman-estilos_34
+  - first:
+      213: 3725600549207944228
+    second: bomberman-estilos_35
+  - first:
+      213: -8295208713547505201
+    second: bomberman-estilos_36
+  - first:
+      213: 7275808818607745349
+    second: bomberman-estilos_37
+  - first:
+      213: 657991671403833452
+    second: bomberman-estilos_38
+  - first:
+      213: -2734613984179381480
+    second: bomberman-estilos_39
+  - first:
+      213: 2202804737394793132
+    second: bomberman-estilos_40
+  - first:
+      213: 3056034479482934431
+    second: bomberman-estilos_41
+  - first:
+      213: 6097668204131126072
+    second: bomberman-estilos_42
+  - first:
+      213: 2491610412598638965
+    second: bomberman-estilos_43
+  - first:
+      213: 8083924833346145750
+    second: bomberman-estilos_44
+  - first:
+      213: 1965721003656994599
+    second: bomberman-estilos_45
+  - first:
+      213: 1376354341040084632
+    second: bomberman-estilos_46
+  - first:
+      213: -2191992642637148090
+    second: bomberman-estilos_47
+  - first:
+      213: -8769331525772570244
+    second: bomberman-estilos_48
+  - first:
+      213: 7280707419944285148
+    second: bomberman-estilos_49
+  - first:
+      213: 303313932414472126
+    second: bomberman-estilos_50
+  - first:
+      213: -4690482391524826685
+    second: bomberman-estilos_51
+  - first:
+      213: 8218681388997282644
+    second: bomberman-estilos_52
+  - first:
+      213: -8959543287192882334
+    second: bomberman-estilos_53
+  - first:
+      213: -8702743078540137688
+    second: bomberman-estilos_54
+  - first:
+      213: -2099142823827188608
+    second: bomberman-estilos_55
+  - first:
+      213: 1822173657277278090
+    second: bomberman-estilos_56
+  - first:
+      213: 8329924773182815136
+    second: bomberman-estilos_57
+  - first:
+      213: -9202918447711249963
+    second: bomberman-estilos_58
+  - first:
+      213: 4897598281535651635
+    second: bomberman-estilos_59
+  - first:
+      213: 5901579752899161547
+    second: bomberman-estilos_60
+  - first:
+      213: 7788989048731137947
+    second: bomberman-estilos_61
+  - first:
+      213: 849704504206005661
+    second: bomberman-estilos_62
+  - first:
+      213: -2487525789295728004
+    second: bomberman-estilos_63
+  - first:
+      213: -6091094921121141580
+    second: bomberman-estilos_64
+  - first:
+      213: 988210545748007831
+    second: bomberman-estilos_65
+  - first:
+      213: -1247214573576975680
+    second: bomberman-estilos_66
+  - first:
+      213: 180049718310285045
+    second: bomberman-estilos_67
+  - first:
+      213: 4832683391695559109
+    second: bomberman-estilos_68
+  - first:
+      213: -6186024488305759369
+    second: bomberman-estilos_69
+  - first:
+      213: 498887998535128847
+    second: bomberman-estilos_70
+  - first:
+      213: -4788117627995550645
+    second: bomberman-estilos_71
+  - first:
+      213: 4192129360723444925
+    second: bomberman-estilos_72
+  - first:
+      213: -7797992857140517606
+    second: bomberman-estilos_73
+  - first:
+      213: -8563179163151046413
+    second: bomberman-estilos_74
+  - first:
+      213: 1626453910005763162
+    second: bomberman-estilos_75
+  - first:
+      213: 3364936205890417858
+    second: bomberman-estilos_76
+  - first:
+      213: 4717656253961727113
+    second: bomberman-estilos_77
+  - first:
+      213: 506769531222755849
+    second: bomberman-estilos_78
+  - first:
+      213: -3967362451675245387
+    second: bomberman-estilos_79
+  - first:
+      213: 9123786731892365101
+    second: bomberman-estilos_80
+  - first:
+      213: -8587615587294319034
+    second: bomberman-estilos_81
+  - first:
+      213: 6370600361614824574
+    second: bomberman-estilos_82
+  - first:
+      213: -8035665384922074208
+    second: bomberman-estilos_83
+  - first:
+      213: -7523487268748311275
+    second: bomberman-estilos_84
+  - first:
+      213: -4140447707460135095
+    second: bomberman-estilos_85
+  - first:
+      213: -6113467353224121729
+    second: bomberman-estilos_86
+  - first:
+      213: 5072486071377642852
+    second: bomberman-estilos_87
+  - first:
+      213: 2865192263963748936
+    second: bomberman-estilos_88
+  - first:
+      213: -7258419773397122311
+    second: bomberman-estilos_89
+  - first:
+      213: -3505892554582931816
+    second: bomberman-estilos_90
+  - first:
+      213: 8205045950762890923
+    second: bomberman-estilos_91
+  - first:
+      213: 5841325311546753688
+    second: bomberman-estilos_92
+  - first:
+      213: -1493119179118950737
+    second: bomberman-estilos_93
+  - first:
+      213: 1778954613126069388
+    second: bomberman-estilos_94
+  - first:
+      213: -9071857400277940999
+    second: bomberman-estilos_95
+  - first:
+      213: 5697177555652556384
+    second: bomberman-estilos_96
+  - first:
+      213: 3039397409322955273
+    second: bomberman-estilos_97
+  - first:
+      213: 1489839571633879165
+    second: bomberman-estilos_98
+  - first:
+      213: -5417131797680090613
+    second: bomberman-estilos_99
+  - first:
+      213: -2890363780344247660
+    second: bomberman-estilos_100
+  - first:
+      213: -4472765719110871222
+    second: bomberman-estilos_101
+  - first:
+      213: -5659462028165709610
+    second: bomberman-estilos_102
+  - first:
+      213: 4252655911400518251
+    second: bomberman-estilos_103
+  - first:
+      213: 729591387391178042
+    second: bomberman-estilos_104
+  - first:
+      213: 131990284865026799
+    second: bomberman-estilos_105
+  - first:
+      213: -4315890939853445528
+    second: bomberman-estilos_106
+  - first:
+      213: 7846066673113275051
+    second: bomberman-estilos_107
+  - first:
+      213: 8001902776127173902
+    second: bomberman-estilos_108
+  - first:
+      213: -1336556400346629478
+    second: bomberman-estilos_109
+  - first:
+      213: -2059732089107892028
+    second: bomberman-estilos_110
+  - first:
+      213: 3738466528362778564
+    second: bomberman-estilos_111
+  - first:
+      213: -8091091371323206965
+    second: bomberman-estilos_112
+  - first:
+      213: 1062238153538496663
+    second: bomberman-estilos_113
+  - first:
+      213: 4766989824437849765
+    second: bomberman-estilos_114
+  - first:
+      213: 6841283389059984108
+    second: bomberman-estilos_115
+  - first:
+      213: 1448537111828725907
+    second: bomberman-estilos_116
+  - first:
+      213: -919864668816489874
+    second: bomberman-estilos_117
+  - first:
+      213: -6778087833203289952
+    second: bomberman-estilos_118
+  - first:
+      213: 7504730413982181111
+    second: bomberman-estilos_119
+  - first:
+      213: 1937619103312929567
+    second: bomberman-estilos_120
+  - first:
+      213: -1792916555513682370
+    second: bomberman-estilos_121
+  - first:
+      213: 6547976671711420211
+    second: bomberman-estilos_122
+  - first:
+      213: -7282933258017459990
+    second: bomberman-estilos_123
+  - first:
+      213: 4287091517733395568
+    second: bomberman-estilos_124
+  - first:
+      213: -1241838815528979579
+    second: bomberman-estilos_125
+  - first:
+      213: -2281336224195970550
+    second: bomberman-estilos_126
+  - first:
+      213: 4945522187510862388
+    second: bomberman-estilos_127
+  - first:
+      213: 6523764854689870481
+    second: bomberman-estilos_128
+  - first:
+      213: -4009306779632654924
+    second: bomberman-estilos_129
+  - first:
+      213: 1833925273368348655
+    second: bomberman-estilos_130
+  - first:
+      213: -7053600387494791437
+    second: bomberman-estilos_131
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bomberman-estilos_0
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1029
+        width: 143
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d408ded989ac886e0800000000000000
+      internalID: -1834994091320049587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_1
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 1019
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6df3400f771c15a0800000000000000
+      internalID: -6549333923870802578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_2
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 1019
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e21f7ce189203500800000000000000
+      internalID: 373844407067022049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_3
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1019
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73719a69d78009230800000000000000
+      internalID: 3643421434034329399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_4
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1019
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9a514184bef086c0800000000000000
+      internalID: -4143031605964744037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_5
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 1016
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50acd199ec29ea80800000000000000
+      internalID: -8437163045215756198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_6
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 1016
+        width: 51
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984c8bb8a8aa36ce0800000000000000
+      internalID: -1413098346037853047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_7
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1016
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b33c8ce90b61040800000000000000
+      internalID: 4618072663934581521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_8
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 1019
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2689c37b4975e90800000000000000
+      internalID: -7036992378026564914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_9
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1019
+        width: 51
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497059344cb7dc4c0800000000000000
+      internalID: -4265617189172344940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_10
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 949
+        width: 60
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c6ed45792e52b90800000000000000
+      internalID: -7267153284100625353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 954
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6b4a0b77372e3a0800000000000000
+      internalID: -6637615942888802636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_12
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 952
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45d0c20bc1913f10800000000000000
+      internalID: 2247737990145168714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_13
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 952
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537a09e258f325520800000000000000
+      internalID: 2689281768738039605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_14
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 952
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82c2cf9ec329bc20800000000000000
+      internalID: 3222646378710876810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_15
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 949
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb322c624c000cc0800000000000000
+      internalID: -3746981410550694940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_16
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 946
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f126213c4f306b70800000000000000
+      internalID: 8890175260904006133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_17
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 894
+        width: 151
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e5b5e133b3a61a0800000000000000
+      internalID: -6815569995333149080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_18
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 883
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094c75abbc7fecdc0800000000000000
+      internalID: -3616680996355193712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_19
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 883
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872939a10e6a0a470800000000000000
+      internalID: 8403900386122109560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_20
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 883
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9019d61fe8c6170800000000000000
+      internalID: 8173064591347091937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_21
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 883
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93439ff343884c10800000000000000
+      internalID: 2038023159459038109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_22
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 881
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4369fa3ad7cb30020800000000000000
+      internalID: 2306894681946953268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_23
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 881
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a498e685b172f10c0800000000000000
+      internalID: -4602917295748118198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_24
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 881
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ce7fff46db33780800000000000000
+      internalID: -8704405413288219528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_25
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 883
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a31b2437d869d40800000000000000
+      internalID: 5590811513606715977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_26
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 883
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a07b6766556fb550800000000000000
+      internalID: 6178768635552297121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_27
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 814
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13f87c123535959e0800000000000000
+      internalID: -1632181773430976719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_28
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 819
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4acd060d78d1c8e20800000000000000
+      internalID: 3354088291637976228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_29
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 816
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d090176a795996b0800000000000000
+      internalID: -5289097905119915817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_30
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 816
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254152c43f061a090800000000000000
+      internalID: -8025026462926695342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_31
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 816
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2cf30dffe534200800000000000000
+      internalID: 163078464318980856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_32
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 814
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fcf155e0ee65eb60800000000000000
+      internalID: 7774742243924114678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_33
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 756
+        width: 82
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d5a94a8f2421b30800000000000000
+      internalID: 4256538233499442536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_34
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 769
+        width: 117
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b986b3b2b0381b010800000000000000
+      internalID: 1202886659477825691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_35
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 756
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c2a8ed5fdf3b330800000000000000
+      internalID: 3725600549207944228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_36
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 756
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1a64bff9f71ec80800000000000000
+      internalID: -8295208713547505201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_37
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 756
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549e4c6529dd8f460800000000000000
+      internalID: 7275808818607745349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_38
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 756
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68e03f50f7a12900800000000000000
+      internalID: 657991671403833452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_39
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 754
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b1c2be113bc0ad0800000000000000
+      internalID: -2734613984179381480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_40
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 754
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caad6f9dc3fe19e10800000000000000
+      internalID: 2202804737394793132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_41
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 754
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f941de2ea27396a20800000000000000
+      internalID: 3056034479482934431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_42
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 756
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b0e61cce44f9450800000000000000
+      internalID: 6097668204131126072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_43
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 686
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5793b99187af39220800000000000000
+      internalID: 2491610412598638965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_44
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 692
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd4e823ecedf2070800000000000000
+      internalID: 8083924833346145750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_45
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 689
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72fdf7686d4a74b10800000000000000
+      internalID: 1965721003656994599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_46
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 689
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896d2ce1bfac91310800000000000000
+      internalID: 1376354341040084632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_47
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 689
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640d7512e4a7491e0800000000000000
+      internalID: -2191992642637148090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_48
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 686
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7111b070731d4680800000000000000
+      internalID: -8769331525772570244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_49
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 629
+        width: 76
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd37457d2d44a0560800000000000000
+      internalID: 7280707419944285148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_50
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 642
+        width: 91
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfcdfc1a66953400800000000000000
+      internalID: 303313932414472126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_51
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 629
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c120fbbd1f08eeb0800000000000000
+      internalID: -4690482391524826685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_52
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 629
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b0c49cd2f9e0270800000000000000
+      internalID: 8218681388997282644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_53
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 629
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 263f12999de49a380800000000000000
+      internalID: -8959543287192882334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_54
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 629
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b20287745a93780800000000000000
+      internalID: -8702743078540137688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_55
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 627
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08458f439b85ed2e0800000000000000
+      internalID: -2099142823827188608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_56
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 627
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8726197949a94910800000000000000
+      internalID: 1822173657277278090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_57
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 627
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abb9478276d99370800000000000000
+      internalID: 8329924773182815136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_58
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 629
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d918435e6aa84080800000000000000
+      internalID: -9202918447711249963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_59
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 559
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ffe7f30b3c7f340800000000000000
+      internalID: 4897598281535651635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_60
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 564
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd2131748f96e150800000000000000
+      internalID: 5901579752899161547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_61
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 561
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97f601a54c081c60800000000000000
+      internalID: 7788989048731137947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_62
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 561
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d959f31aeb1cacb00800000000000000
+      internalID: 849704504206005661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_63
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 561
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7aa76f59788a7dd0800000000000000
+      internalID: -2487525789295728004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_64
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 559
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc6365f075187ba0800000000000000
+      internalID: -6091094921121141580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_65
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 502
+        width: 76
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bda9e6144d6bd00800000000000000
+      internalID: 988210545748007831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_66
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 520
+        width: 169
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca014f04f001bee0800000000000000
+      internalID: -1247214573576975680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_67
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 502
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe2bcdc34aaf7200800000000000000
+      internalID: 180049718310285045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_68
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 502
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c991f9a0f3211340800000000000000
+      internalID: 4832683391695559109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_69
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 502
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77beaaab083d62aa0800000000000000
+      internalID: -6186024488305759369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_70
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 502
+        width: 50
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07546fcdf76ce600800000000000000
+      internalID: 498887998535128847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_71
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 499
+        width: 53
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c0a88c2603d8db0800000000000000
+      internalID: -4788117627995550645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_72
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 499
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db40866517f6d2a30800000000000000
+      internalID: 4192129360723444925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_73
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 499
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a152b1ddfc6f7c390800000000000000
+      internalID: -7797992857140517606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_74
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 502
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8ea58bbe9792980800000000000000
+      internalID: -8563179163151046413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_75
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 431
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c407db633529610800000000000000
+      internalID: 1626453910005763162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_76
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 436
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4f2fba6a7a2be20800000000000000
+      internalID: 3364936205890417858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_77
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 434
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ce9c52e5b787140800000000000000
+      internalID: 4717656253961727113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_78
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 434
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a06832438680700800000000000000
+      internalID: 506769531222755849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_79
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 434
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b49ca4ced811f8c0800000000000000
+      internalID: -3967362451675245387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_80
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 431
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27ddd851b33e9e70800000000000000
+      internalID: 9123786731892365101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_81
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 429
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ee6bb5f19a2d880800000000000000
+      internalID: -8587615587294319034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_82
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 384
+        width: 149
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74d608a64be86850800000000000000
+      internalID: 6370600361614824574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_83
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 371
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a331dd38e49b7090800000000000000
+      internalID: -8035665384922074208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_84
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 371
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5154512b034379790800000000000000
+      internalID: -7523487268748311275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_85
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 371
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94712c14fbc2a86c0800000000000000
+      internalID: -4140447707460135095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_86
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 371
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72f02135d9982ba0800000000000000
+      internalID: -6113467353224121729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_87
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 369
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465c49ce437156640800000000000000
+      internalID: 5072486071377642852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_88
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 369
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84aa1c20f2533c720800000000000000
+      internalID: 2865192263963748936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_89
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 369
+        width: 52
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f24eff3ca9e44b90800000000000000
+      internalID: -7258419773397122311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_90
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 371
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896c56feb41985fc0800000000000000
+      internalID: -3505892554582931816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_91
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 371
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6bafce1dd2ed170800000000000000
+      internalID: 8205045950762890923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_92
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 301
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8920e341c6e801150800000000000000
+      internalID: 5841325311546753688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_93
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 307
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6ca497400674be0800000000000000
+      internalID: -1493119179118950737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_94
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 304
+        width: 61
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cfbea9bcd10b810800000000000000
+      internalID: 1778954613126069388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_95
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 304
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f44f6b52c94a1280800000000000000
+      internalID: -9071857400277940999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_96
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 304
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066bffa4dc0701f40800000000000000
+      internalID: 5697177555652556384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_97
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 301
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902ffe127db1e2a20800000000000000
+      internalID: 3039397409322955273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_98
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 298
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78be876239fca410800000000000000
+      internalID: 1489839571633879165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_99
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 251
+        width: 120
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b021ec9c45b72d4b0800000000000000
+      internalID: -5417131797680090613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_100
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 239
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a0de0a47d53e7d0800000000000000
+      internalID: -2890363780344247660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_101
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 239
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a471ad4b64b8de1c0800000000000000
+      internalID: -4472765719110871222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_102
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 239
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d00f5f354d8571b0800000000000000
+      internalID: -5659462028165709610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_103
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 239
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b623ef61508740b30800000000000000
+      internalID: 4252655911400518251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_104
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 236
+        width: 53
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35b2a45087002a00800000000000000
+      internalID: 729591387391178042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_105
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 236
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feabe2bf67ce4d100800000000000000
+      internalID: 131990284865026799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_106
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 236
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86665b88e00ea14c0800000000000000
+      internalID: -4315890939853445528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_107
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 239
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa92f6a114d2ec60800000000000000
+      internalID: 7846066673113275051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_108
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 239
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05b542dd287c0f60800000000000000
+      internalID: 8001902776127173902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_109
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 169
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a70170909937de0800000000000000
+      internalID: -1336556400346629478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_110
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 174
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c83040f39c5a63e0800000000000000
+      internalID: -2059732089107892028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_111
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 171
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf40c31083b1e330800000000000000
+      internalID: 3738466528362778564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_112
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 171
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc25d07244ba6bf80800000000000000
+      internalID: -8091091371323206965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_113
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 171
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 798678009f3ddbe00800000000000000
+      internalID: 1062238153538496663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_114
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 169
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae058d1dffb72240800000000000000
+      internalID: 4766989824437849765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_115
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 167
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea63b4eefe11fe50800000000000000
+      internalID: 6841283389059984108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_116
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 101
+        width: 171
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390858a14dc3a1410800000000000000
+      internalID: 1448537111828725907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_117
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 101
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62c2c515fbfb33f0800000000000000
+      internalID: -919864668816489874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_118
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 101
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0558d07056fe1a0800000000000000
+      internalID: -6778087833203289952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_119
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 101
+        width: 49
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f66a7cbc88262860800000000000000
+      internalID: 7504730413982181111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_120
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 98
+        width: 51
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f136afafe4ec3ea10800000000000000
+      internalID: 1937619103312929567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_121
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 98
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36a0bc54e74e17e0800000000000000
+      internalID: -1792916555513682370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_122
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 98
+        width: 52
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f57ea17161fda50800000000000000
+      internalID: 6547976671711420211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_123
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 101
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0bdf8d9c2ddea90800000000000000
+      internalID: -7282933258017459990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_124
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 101
+        width: 51
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cd61a750fce7b30800000000000000
+      internalID: 4287091517733395568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_125
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 31
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5837a144d2a14cee0800000000000000
+      internalID: -1241838815528979579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_126
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 36
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a71978ac01750e0800000000000000
+      internalID: -2281336224195970550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_127
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 34
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432d56f1a3602a440800000000000000
+      internalID: 4945522187510862388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_128
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 34
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192b7f92291198a50800000000000000
+      internalID: 6523764854689870481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_129
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 34
+        width: 55
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b52e64e9b41c58c0800000000000000
+      internalID: -4009306779632654924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_130
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 31
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe74bbfc159637910800000000000000
+      internalID: 1833925273368348655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomberman-estilos_131
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 28
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6b0d3b1d39c1e90800000000000000
+      internalID: -7053600387494791437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bomberman-estilos_0: -1834994091320049587
+      bomberman-estilos_1: -6549333923870802578
+      bomberman-estilos_10: -7267153284100625353
+      bomberman-estilos_100: -2890363780344247660
+      bomberman-estilos_101: -4472765719110871222
+      bomberman-estilos_102: -5659462028165709610
+      bomberman-estilos_103: 4252655911400518251
+      bomberman-estilos_104: 729591387391178042
+      bomberman-estilos_105: 131990284865026799
+      bomberman-estilos_106: -4315890939853445528
+      bomberman-estilos_107: 7846066673113275051
+      bomberman-estilos_108: 8001902776127173902
+      bomberman-estilos_109: -1336556400346629478
+      bomberman-estilos_11: -6637615942888802636
+      bomberman-estilos_110: -2059732089107892028
+      bomberman-estilos_111: 3738466528362778564
+      bomberman-estilos_112: -8091091371323206965
+      bomberman-estilos_113: 1062238153538496663
+      bomberman-estilos_114: 4766989824437849765
+      bomberman-estilos_115: 6841283389059984108
+      bomberman-estilos_116: 1448537111828725907
+      bomberman-estilos_117: -919864668816489874
+      bomberman-estilos_118: -6778087833203289952
+      bomberman-estilos_119: 7504730413982181111
+      bomberman-estilos_12: 2247737990145168714
+      bomberman-estilos_120: 1937619103312929567
+      bomberman-estilos_121: -1792916555513682370
+      bomberman-estilos_122: 6547976671711420211
+      bomberman-estilos_123: -7282933258017459990
+      bomberman-estilos_124: 4287091517733395568
+      bomberman-estilos_125: -1241838815528979579
+      bomberman-estilos_126: -2281336224195970550
+      bomberman-estilos_127: 4945522187510862388
+      bomberman-estilos_128: 6523764854689870481
+      bomberman-estilos_129: -4009306779632654924
+      bomberman-estilos_13: 2689281768738039605
+      bomberman-estilos_130: 1833925273368348655
+      bomberman-estilos_131: -7053600387494791437
+      bomberman-estilos_14: 3222646378710876810
+      bomberman-estilos_15: -3746981410550694940
+      bomberman-estilos_16: 8890175260904006133
+      bomberman-estilos_17: -6815569995333149080
+      bomberman-estilos_18: -3616680996355193712
+      bomberman-estilos_19: 8403900386122109560
+      bomberman-estilos_2: 373844407067022049
+      bomberman-estilos_20: 8173064591347091937
+      bomberman-estilos_21: 2038023159459038109
+      bomberman-estilos_22: 2306894681946953268
+      bomberman-estilos_23: -4602917295748118198
+      bomberman-estilos_24: -8704405413288219528
+      bomberman-estilos_25: 5590811513606715977
+      bomberman-estilos_26: 6178768635552297121
+      bomberman-estilos_27: -1632181773430976719
+      bomberman-estilos_28: 3354088291637976228
+      bomberman-estilos_29: -5289097905119915817
+      bomberman-estilos_3: 3643421434034329399
+      bomberman-estilos_30: -8025026462926695342
+      bomberman-estilos_31: 163078464318980856
+      bomberman-estilos_32: 7774742243924114678
+      bomberman-estilos_33: 4256538233499442536
+      bomberman-estilos_34: 1202886659477825691
+      bomberman-estilos_35: 3725600549207944228
+      bomberman-estilos_36: -8295208713547505201
+      bomberman-estilos_37: 7275808818607745349
+      bomberman-estilos_38: 657991671403833452
+      bomberman-estilos_39: -2734613984179381480
+      bomberman-estilos_4: -4143031605964744037
+      bomberman-estilos_40: 2202804737394793132
+      bomberman-estilos_41: 3056034479482934431
+      bomberman-estilos_42: 6097668204131126072
+      bomberman-estilos_43: 2491610412598638965
+      bomberman-estilos_44: 8083924833346145750
+      bomberman-estilos_45: 1965721003656994599
+      bomberman-estilos_46: 1376354341040084632
+      bomberman-estilos_47: -2191992642637148090
+      bomberman-estilos_48: -8769331525772570244
+      bomberman-estilos_49: 7280707419944285148
+      bomberman-estilos_5: -8437163045215756198
+      bomberman-estilos_50: 303313932414472126
+      bomberman-estilos_51: -4690482391524826685
+      bomberman-estilos_52: 8218681388997282644
+      bomberman-estilos_53: -8959543287192882334
+      bomberman-estilos_54: -8702743078540137688
+      bomberman-estilos_55: -2099142823827188608
+      bomberman-estilos_56: 1822173657277278090
+      bomberman-estilos_57: 8329924773182815136
+      bomberman-estilos_58: -9202918447711249963
+      bomberman-estilos_59: 4897598281535651635
+      bomberman-estilos_6: -1413098346037853047
+      bomberman-estilos_60: 5901579752899161547
+      bomberman-estilos_61: 7788989048731137947
+      bomberman-estilos_62: 849704504206005661
+      bomberman-estilos_63: -2487525789295728004
+      bomberman-estilos_64: -6091094921121141580
+      bomberman-estilos_65: 988210545748007831
+      bomberman-estilos_66: -1247214573576975680
+      bomberman-estilos_67: 180049718310285045
+      bomberman-estilos_68: 4832683391695559109
+      bomberman-estilos_69: -6186024488305759369
+      bomberman-estilos_7: 4618072663934581521
+      bomberman-estilos_70: 498887998535128847
+      bomberman-estilos_71: -4788117627995550645
+      bomberman-estilos_72: 4192129360723444925
+      bomberman-estilos_73: -7797992857140517606
+      bomberman-estilos_74: -8563179163151046413
+      bomberman-estilos_75: 1626453910005763162
+      bomberman-estilos_76: 3364936205890417858
+      bomberman-estilos_77: 4717656253961727113
+      bomberman-estilos_78: 506769531222755849
+      bomberman-estilos_79: -3967362451675245387
+      bomberman-estilos_8: -7036992378026564914
+      bomberman-estilos_80: 9123786731892365101
+      bomberman-estilos_81: -8587615587294319034
+      bomberman-estilos_82: 6370600361614824574
+      bomberman-estilos_83: -8035665384922074208
+      bomberman-estilos_84: -7523487268748311275
+      bomberman-estilos_85: -4140447707460135095
+      bomberman-estilos_86: -6113467353224121729
+      bomberman-estilos_87: 5072486071377642852
+      bomberman-estilos_88: 2865192263963748936
+      bomberman-estilos_89: -7258419773397122311
+      bomberman-estilos_9: -4265617189172344940
+      bomberman-estilos_90: -3505892554582931816
+      bomberman-estilos_91: 8205045950762890923
+      bomberman-estilos_92: 5841325311546753688
+      bomberman-estilos_93: -1493119179118950737
+      bomberman-estilos_94: 1778954613126069388
+      bomberman-estilos_95: -9071857400277940999
+      bomberman-estilos_96: 5697177555652556384
+      bomberman-estilos_97: 3039397409322955273
+      bomberman-estilos_98: 1489839571633879165
+      bomberman-estilos_99: -5417131797680090613
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
