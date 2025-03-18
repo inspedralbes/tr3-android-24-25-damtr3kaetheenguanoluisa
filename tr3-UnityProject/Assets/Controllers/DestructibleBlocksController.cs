@@ -5,7 +5,7 @@ public class DestructibleBlocksController : MonoBehaviour
 {
     public float destructionTime = 1f;  
     [Range(0f, 1f)]
-    public float itemSpawn = 0.2f;
+    public float itemSpawn = 0.5f;
     public GameObject [] spawnablePowerUps;
     private void Start(){
         Destroy(gameObject, destructionTime);

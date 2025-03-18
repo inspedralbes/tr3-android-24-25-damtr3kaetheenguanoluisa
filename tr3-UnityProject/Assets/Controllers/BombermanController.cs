@@ -18,6 +18,8 @@ public class BombermanController : MonoBehaviour
     public AnimatorSpriteRenderer spriteRendererDown;
     public AnimatorSpriteRenderer spriteRendererLeft;
     public AnimatorSpriteRenderer spriteRendererRight;
+    public AnimatorSpriteRenderer spriteRendererDeath;
+
     private AnimatorSpriteRenderer activeSpriteRenderer;
     private void Awake()
     {
@@ -64,25 +66,26 @@ public class BombermanController : MonoBehaviour
         activeSpriteRenderer.idle = direction == Vector2.zero;
     }
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.layer == LayerMask.NameToLayer("Explosion")){
+            Death();
+        }
+    }
+    private void Death(){
+        enabled = false;
+        GetComponent<BombController>().enabled = false;
+        spriteRendererUp.enabled = false;
+        spriteRendererDown.enabled = false;
+        spriteRendererLeft.enabled = false;
+        spriteRendererRight.enabled = false;
+        spriteRendererDeath.enabled = true;
 
-
-    // public float velocidad;
-    // [Range(5f, 5f)]
-    // Vector3 targetPosition;
-
-
-    // // Update is called once per frame
-    // void Update()
-    // {
-    //     if (Input.GetMouseButton(0)) {
-    //         targetPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-    //         targetPosition.z = 0;
-    //     } else {
-    //         targetPosition = transform.position + new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
-    //     }
-
-    //     transform.position = Vector3.Lerp(transform.position, targetPosition, speed * Time.deltaTime);
-
-    // }
+        Invoke(nameof(OnDeathEnd), 1.25f);
+    }
+   private void OnDeathEnd()
+    {
+        gameObject.SetActive(false);
+    }
 
 }
