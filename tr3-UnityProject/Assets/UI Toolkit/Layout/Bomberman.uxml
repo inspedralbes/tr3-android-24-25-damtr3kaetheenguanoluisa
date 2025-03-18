@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Layout/Bomberman.uss?fileID=7433441132597879392&amp;guid=32c21382ac5175b418fc5dd594bc5a0b&amp;type=3#Bomberman" />
+    <engine:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Sprites/feel-free-to-use-this-4k-super-bomberman-r-wallpaper-i-v0-ssz6ewhealg91.jpg?fileID=4398948991213948631&amp;guid=6ad878cc70cf43e43a5ef06986e77ccd&amp;type=3#feel-free-to-use-this-4k-super-bomberman-r-wallpaper-i-v0-ssz6ewhealg91_0&quot;);">
+        <engine:Label text="BOMBERMAN" />
+        <engine:Button text="Jugar" />
+        <engine:Button text="Opcions" />
+    </engine:VisualElement>
+</engine:UXML>
