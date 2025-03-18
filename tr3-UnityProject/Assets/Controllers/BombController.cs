@@ -13,6 +13,7 @@ public class BombController : MonoBehaviour
 
     [Header("Explosion")]
     public Explosion explosionPrefab;
+    public LayerMask obstacleLayer;
     public float explosionDuration = 1f;
     public int explosionRadius = 1;
 
@@ -60,10 +61,15 @@ public class BombController : MonoBehaviour
         } 
         position += direction;
 
+        if(Physics2D.OverlapBox(position, Vector2.one/2f,0f, obstacleLayer)){
+            return;
+        }
+        
         Explosion explosion = Instantiate(explosionPrefab, position, Quaternion.identity);
         explosion.SetActivateRenderer (length > 1 ? explosion.middle : explosion.end);
         explosion.SetDirection(direction);
         explosion.DestroyAfter(explosionDuration);
+
         Explode (position, direction, length - 1);
         
     }
