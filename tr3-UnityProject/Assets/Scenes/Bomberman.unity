@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 669802200}
   - component: {fileID: 669802202}
   - component: {fileID: 669802201}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Indestructibles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2577,7 +2577,7 @@ GameObject:
   - component: {fileID: 743485601}
   m_Layer: 0
   m_Name: bomberman
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2702,8 +2702,13 @@ MonoBehaviour:
   bombFuseTime: 3
   bombAmount: 5
   explosionPrefab: {fileID: 4989023307425070659, guid: cf7cc5f74cd647b4a84f605576d30a10, type: 3}
+  obstacleLayer:
+    serializedVersion: 2
+    m_Bits: 64
   explosionDuration: 1
   explosionRadius: 1
+  destructibleTiles: {fileID: 2129468693}
+  destructiblePrefab: {fileID: 642800633348279825, guid: aebc448297980124b8bd8c3732a9787e, type: 3}
 --- !u!1 &806762085
 GameObject:
   m_ObjectHideFlags: 0
@@ -2714,7 +2719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 806762087}
   - component: {fileID: 806762086}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2777,8 +2782,8 @@ Transform:
   m_GameObject: {fileID: 1020359482}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.1, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 743485599}
@@ -2884,8 +2889,8 @@ Transform:
   m_GameObject: {fileID: 1327153103}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.1, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 743485599}
@@ -2991,8 +2996,8 @@ Transform:
   m_GameObject: {fileID: 1431464970}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.1, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 743485599}
@@ -3100,8 +3105,8 @@ Transform:
   m_GameObject: {fileID: 2075160068}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.1, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 743485599}
@@ -3194,7 +3199,7 @@ GameObject:
   - component: {fileID: 2129468693}
   - component: {fileID: 2129468692}
   - component: {fileID: 2129468691}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Destructibles
   m_TagString: Untagged
   m_Icon: {fileID: 0}

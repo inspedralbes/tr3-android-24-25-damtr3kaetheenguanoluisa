@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 15
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -136,7 +136,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 43
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -156,10 +156,10 @@ TextureImporter:
       name: BrickDestroy_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 10
-        width: 17
-        height: 6
+        x: 16
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,10 +178,10 @@ TextureImporter:
       name: BrickDestroy_2
       rect:
         serializedVersion: 2
-        x: 37
-        y: 5
-        width: 17
-        height: 6
+        x: 32
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,9 +201,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 10
-        width: 17
-        height: 6
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,10 +222,10 @@ TextureImporter:
       name: BrickDestroy_4
       rect:
         serializedVersion: 2
-        x: 53
-        y: 5
+        x: 64
+        y: 0
         width: 16
-        height: 6
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: BrickDestroy_5
       rect:
         serializedVersion: 2
-        x: 58
+        x: 80
         y: 0
-        width: 39
-        height: 15
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,33 +262,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: BrickDestroy_6
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 0
-        width: 17
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e73df0b2e79263ab0800000000000000
-      internalID: -5028786312047504514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d1624a83a31ba9744b954829fe0558c8
     internalID: 0
     vertices: []
     indices: 
@@ -297,7 +275,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BrickDestroy_0: 440004201269631737
+      BrickDestroy_1: 6428096427953393541
+      BrickDestroy_2: 8603011222089355523
+      BrickDestroy_3: 2274631966701665123
+      BrickDestroy_4: -5598041726246172800
+      BrickDestroy_5: -5070355926835817348
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
