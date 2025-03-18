@@ -4,7 +4,7 @@ using UnityEngine.Rendering;
 public class DestructibleBlocksController : MonoBehaviour
 {
     public float destructionTime = 1f;  
-    [Range(0f,1)]
+    [Range(0f, 1f)]
     public float itemSpawn = 0.2f;
     public GameObject [] spawnablePowerUps;
     private void Start(){
