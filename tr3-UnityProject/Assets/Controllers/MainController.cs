@@ -4,23 +4,13 @@ using UnityEngine.SceneManagement;
 
 public class MainController : MonoBehaviour
 {
-    private void OnEnable()
+   public void Jugar (){
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+   }
+
+   public void Salir()
     {
-        var root = GetComponent<UIDocument>().rootVisualElement;
-
-        Button playButton = root.Q<Button>("playButton");
-        Button optionsButton = root.Q<Button>("optionsButton");
-        Button exitButton = root.Q<Button>("exitButton");
-
-        playButton.clicked += () => SceneManager.LoadScene("Bomberman");
-        exitButton.clicked += ExitGame;
-    }
-
-   private void ExitGame()
-    {
-        Debug.Log("Sutint del joc...");
+        Debug.Log("Surtint del joc...");
         Application.Quit(); 
-
-        
     }
 }
