@@ -66,7 +66,7 @@ private IEnumerator LoginCoroutine()
     string username = usernameLoginInput.text;
     string password = passwordLoginInput.text;
 
-    Debug.Log("Intentando iniciar sesión con username: " + username + " y password: " + password);  // Asegúrate de ver los valores en consola
+    Debug.Log("Intentando iniciar sesión con username: " + username + " y password: " + password);  
 
     string url = apiUrl + "/login";
     WWWForm form = new WWWForm();
@@ -91,7 +91,7 @@ private IEnumerator LoginCoroutine()
     }
     else
     {
-        Debug.LogError("Login failed: " + request.error);  // Muestra el error en la consola de Unity
+        Debug.LogError("Login failed: " + request.error);  
         messageText.text = "Error: " + request.downloadHandler.text;
     }
 }
