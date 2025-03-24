@@ -4,99 +4,111 @@ using UnityEngine.Networking;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-
 public class AuthManager : MonoBehaviour
 {
-    [Header("Login")]
-    public TMP_InputField usernameLoginInput;
-    public TMP_InputField passwordLoginInput;
+    [Header("Player 1 Login")]
+    public TMP_InputField usernameLoginInputP1;
+    public TMP_InputField passwordLoginInputP1;
 
-    [Header("Register")]
-    public TMP_InputField usernameRegisterInput;
-    public TMP_InputField emailRegisterInput;
-    public TMP_InputField passwordRegisterInput;
+    [Header("Player 2 Login")]
+    public TMP_InputField usernameLoginInputP2;
+    public TMP_InputField passwordLoginInputP2;
+
+    [Header("Player 1 Register")]
+    public TMP_InputField usernameRegisterInputP1;
+    public TMP_InputField emailRegisterInputP1;
+    public TMP_InputField passwordRegisterInputP1;
+
+    [Header("Player 2 Register")]
+    public TMP_InputField usernameRegisterInputP2;
+    public TMP_InputField emailRegisterInputP2;
+    public TMP_InputField passwordRegisterInputP2;
+
     public TextMeshProUGUI messageText;
-    private string apiUrl = "http://localhost:3020/players"; 
+    private string apiUrl = "http://localhost:3020/players";
 
-    public void Register()
+    public void RegisterPlayer1()
     {
-        Debug.Log("Intentando registrar: " + usernameRegisterInput.text + ", " + emailRegisterInput.text + ", " + passwordRegisterInput.text);
-        StartCoroutine(RegisterCoroutine());
+        Debug.Log("Registrant jugador1...");
+        StartCoroutine(RegisterCoroutine(usernameRegisterInputP1.text, emailRegisterInputP1.text, passwordRegisterInputP1.text, 1));
+    }
+     public void RegisterPlayer2()
+    {
+        Debug.Log("Registrant jugador2...");
+        StartCoroutine(RegisterCoroutine(usernameRegisterInputP2.text, emailRegisterInputP2.text, passwordRegisterInputP2.text, 2));
     }
 
-    public void Login()
+
+    public void LoginPlayer1()
     {
-        Debug.Log("Intentando iniciar sesión: " + usernameRegisterInput.text + ", " + passwordRegisterInput.text);
-        StartCoroutine(LoginCoroutine());
+        Debug.Log("Iniciant sessió jugador1...");
+        StartCoroutine(LoginCoroutine(usernameLoginInputP1.text, passwordLoginInputP1.text, 1));
+    }
+     public void LoginPlayer2()
+    {
+        Debug.Log("Iniciant sessió jugador2...");
+        StartCoroutine(LoginCoroutine(usernameLoginInputP2.text, passwordLoginInputP2.text, 2));
     }
 
-    private IEnumerator RegisterCoroutine()
-{
-    Debug.Log("usernameInput: " + usernameRegisterInput);
-    Debug.Log("emailInput: " + emailRegisterInput);
-    Debug.Log("passwordInput: " + passwordRegisterInput);
-    
-    if (usernameRegisterInput == null || emailRegisterInput == null || passwordRegisterInput == null)
+    private IEnumerator RegisterCoroutine(string username, string email, string password, int playerNumber)
     {
-        Debug.LogError("Uno o más campos no están asignados en el Inspector de Unity.");
-        yield break;
+        if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
+        {
+            Debug.LogError($"Faltan datos para registrar al jugador {playerNumber}");
+            yield break;
+        }
+
+        string url = apiUrl + "/register";
+        WWWForm form = new WWWForm();
+        form.AddField("username", username);
+        form.AddField("email", email);
+        form.AddField("password", password);
+
+        UnityWebRequest request = UnityWebRequest.Post(url, form);
+        yield return request.SendWebRequest();
+
+        if (request.result == UnityWebRequest.Result.Success)
+        {
+            Debug.Log($"Registro exitoso para Player {playerNumber}!");
+        }
+        else
+        {
+            Debug.LogError($"Error registrando Player {playerNumber}: {request.downloadHandler.text}");
+        }
     }
 
-    string url = apiUrl + "/register";
-    WWWForm form = new WWWForm();
-    form.AddField("username", usernameRegisterInput.text);
-    form.AddField("email", emailRegisterInput.text);
-    form.AddField("password", passwordRegisterInput.text);
-
-    UnityWebRequest request = UnityWebRequest.Post(url, form);
-    yield return request.SendWebRequest();
-
-    if (request.result == UnityWebRequest.Result.Success)
+    private IEnumerator LoginCoroutine(string username, string password, int playerNumber)
     {
-        messageText.text = "Registro exitoso!";
-    }
-    else
-    {
-        messageText.text = "Error: " + request.downloadHandler.text;
+        if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
+        {
+            Debug.LogError($"Faltan datos para iniciar sesión del jugador {playerNumber}");
+            yield break;
+        }
+
+        string url = apiUrl + "/login";
+        WWWForm form = new WWWForm();
+        form.AddField("username", username);
+        form.AddField("password", password);
+
+        UnityWebRequest request = UnityWebRequest.Post(url, form);
+        yield return request.SendWebRequest();
+
+        if (request.result == UnityWebRequest.Result.Success)
+        {
+            string json = request.downloadHandler.text;
+            PlayerData data = JsonUtility.FromJson<PlayerData>(json);
+
+            PlayerPrefs.SetString($"token{playerNumber}", data.token);
+            PlayerPrefs.SetInt($"playerId{playerNumber}", data.player.id);
+
+            Debug.Log($"Login exitoso para Player {playerNumber}!");
+        }
+        else
+        {
+            Debug.LogError($"Error en login de Player {playerNumber}: {request.downloadHandler.text}");
+        }
     }
 }
-
-private IEnumerator LoginCoroutine()
-{
-    string username = usernameLoginInput.text;
-    string password = passwordLoginInput.text;
-
-    Debug.Log("Intentando iniciar sesión con username: " + username + " y password: " + password);  
-
-    string url = apiUrl + "/login";
-    WWWForm form = new WWWForm();
-    form.AddField("username", username);
-    form.AddField("password", password);
-
-    UnityWebRequest request = UnityWebRequest.Post(url, form);
-    yield return request.SendWebRequest();
-
-    if (request.result == UnityWebRequest.Result.Success)
-    {
-        string json = request.downloadHandler.text;
-        Debug.Log("Respuesta del servidor: " + json);
-
-        PlayerData data = JsonUtility.FromJson<PlayerData>(json);
-
-        PlayerPrefs.SetString("token", data.token);
-        PlayerPrefs.SetInt("playerId", data.player.id);
-        messageText.text = "Login exitoso!";
-
-        SceneManager.LoadScene("Bomberman");
-    }
-    else
-    {
-        Debug.LogError("Login failed: " + request.error);  
-        messageText.text = "Error: " + request.downloadHandler.text;
-    }
-}
-}
-
 
 [System.Serializable]
 public class PlayerData
