@@ -9,10 +9,12 @@ public class AuthManager : MonoBehaviour
     [Header("Player 1 Login")]
     public TMP_InputField usernameLoginInputP1;
     public TMP_InputField passwordLoginInputP1;
+    private bool isPlayer1LoggedIn = false;
 
     [Header("Player 2 Login")]
     public TMP_InputField usernameLoginInputP2;
     public TMP_InputField passwordLoginInputP2;
+    private bool isPlayer2LoggedIn = false;
 
     [Header("Player 1 Register")]
     public TMP_InputField usernameRegisterInputP1;
@@ -29,32 +31,33 @@ public class AuthManager : MonoBehaviour
 
     public void RegisterPlayer1()
     {
-        Debug.Log("Registrant jugador1...");
+        Debug.Log("Registrando jugador 1...");
         StartCoroutine(RegisterCoroutine(usernameRegisterInputP1.text, emailRegisterInputP1.text, passwordRegisterInputP1.text, 1));
     }
-     public void RegisterPlayer2()
+
+    public void RegisterPlayer2()
     {
         Debug.Log("Registrant jugador2...");
         StartCoroutine(RegisterCoroutine(usernameRegisterInputP2.text, emailRegisterInputP2.text, passwordRegisterInputP2.text, 2));
     }
 
-
     public void LoginPlayer1()
     {
         Debug.Log("Iniciant sessió jugador1...");
-        StartCoroutine(LoginCoroutine(usernameLoginInputP1.text, passwordLoginInputP1.text, 1));
+        StartCoroutine(LoginCoroutinePlayer1(usernameLoginInputP1.text, passwordLoginInputP1.text, 1));
     }
-     public void LoginPlayer2()
+
+    public void LoginPlayer2()
     {
         Debug.Log("Iniciant sessió jugador2...");
-        StartCoroutine(LoginCoroutine(usernameLoginInputP2.text, passwordLoginInputP2.text, 2));
+        StartCoroutine(LoginCoroutinePlayer2(usernameLoginInputP2.text, passwordLoginInputP2.text, 2));
     }
 
     private IEnumerator RegisterCoroutine(string username, string email, string password, int playerNumber)
     {
         if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
         {
-            Debug.LogError($"Faltan datos para registrar al jugador {playerNumber}");
+            Debug.LogError($"Falten dades a registrar del jugador {playerNumber}");
             yield break;
         }
 
@@ -69,22 +72,16 @@ public class AuthManager : MonoBehaviour
 
         if (request.result == UnityWebRequest.Result.Success)
         {
-            Debug.Log($"Registro exitoso para Player {playerNumber}!");
+            Debug.Log($"Registre omplert del jugador {playerNumber}!");
         }
         else
         {
-            Debug.LogError($"Error registrando Player {playerNumber}: {request.downloadHandler.text}");
+            Debug.LogError($"Error registrat Player {playerNumber}: {request.downloadHandler.text}");
         }
     }
 
-    private IEnumerator LoginCoroutine(string username, string password, int playerNumber)
+    private IEnumerator LoginCoroutinePlayer1(string username, string password, int playerNumber)
     {
-        if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password))
-        {
-            Debug.LogError($"Faltan datos para iniciar sesión del jugador {playerNumber}");
-            yield break;
-        }
-
         string url = apiUrl + "/login";
         WWWForm form = new WWWForm();
         form.AddField("username", username);
@@ -95,20 +92,54 @@ public class AuthManager : MonoBehaviour
 
         if (request.result == UnityWebRequest.Result.Success)
         {
-            string json = request.downloadHandler.text;
-            PlayerData data = JsonUtility.FromJson<PlayerData>(json);
-
-            PlayerPrefs.SetString($"token{playerNumber}", data.token);
-            PlayerPrefs.SetInt($"playerId{playerNumber}", data.player.id);
-
-            Debug.Log($"Login exitoso para Player {playerNumber}!");
+            isPlayer1LoggedIn = true;
+            Debug.Log("Login jugador 1!");
         }
         else
         {
-            Debug.LogError($"Error en login de Player {playerNumber}: {request.downloadHandler.text}");
+            messageText.text = "Error al iniciar sessió del jugador 1: " + request.downloadHandler.text;
         }
     }
+
+    private IEnumerator LoginCoroutinePlayer2(string username, string password, int playerNumber)
+    {
+        string url = apiUrl + "/login";
+        WWWForm form = new WWWForm();
+        form.AddField("username", username);
+        form.AddField("password", password);
+
+        UnityWebRequest request = UnityWebRequest.Post(url, form);
+        yield return request.SendWebRequest();
+
+        if (request.result == UnityWebRequest.Result.Success)
+        {
+            isPlayer2LoggedIn = true;
+            Debug.Log("Login jugador 2!");
+        }
+        else
+        {
+            messageText.text = "Error al iniciar sessió jugador 2: " + request.downloadHandler.text;
+        }
+    }
+    public void Jugar()
+    {
+        if (AreBothPlayersLoggedIn())
+        {
+            Debug.Log("Als dos jugadors han iniciat correctament sessió. Carregant escena del joc...");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+        else
+        {
+            Debug.LogWarning("No tots els jugadors han iniciat sessió.");
+        }
+    }
+
+    private bool AreBothPlayersLoggedIn()
+    {
+        return isPlayer1LoggedIn && isPlayer2LoggedIn;
+    }
 }
+
 
 [System.Serializable]
 public class PlayerData

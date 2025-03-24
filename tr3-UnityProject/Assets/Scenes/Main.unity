@@ -13016,8 +13016,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 788329040}
-        m_TargetAssemblyTypeName: MainController, Assembly-CSharp
+      - m_Target: {fileID: 1955496165}
+        m_TargetAssemblyTypeName: AuthManager, Assembly-CSharp
         m_MethodName: Jugar
         m_Mode: 1
         m_Arguments:
