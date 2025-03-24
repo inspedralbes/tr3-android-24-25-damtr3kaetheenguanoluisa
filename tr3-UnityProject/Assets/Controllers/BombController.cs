@@ -4,8 +4,11 @@ using UnityEngine.Tilemaps;
 
 public class BombController : MonoBehaviour
 {
+    [Header("Player")]
+    public int playerNumber; 
+
     [Header("Bomb")]
-    public KeyCode inputKey = KeyCode.Space;
+    public KeyCode inputKey; 
     public GameObject bombPrefab;
     public float bombFuseTime = 3f;
     public int bombAmount = 5;
@@ -20,9 +23,25 @@ public class BombController : MonoBehaviour
     [Header("Destructible-Blocks")]
     public Tilemap destructibleTiles;
     public DestructibleBlocksController destructiblePrefab;
-
+    
     private void OnEnable()
     {
+    bombsRemaining = Mathf.Max(1, bombAmount); 
+    }
+
+    private void Start()
+    {
+        if (playerNumber == 1)
+        {
+            inputKey = KeyCode.Space; 
+            bombAmount = PlayerDataManager.Instance.player1.bombs;
+        }
+        else if (playerNumber == 2)
+        {
+            inputKey = KeyCode.RightControl;  
+            bombAmount = PlayerDataManager.Instance.player2.bombs;
+        }
+
         bombsRemaining = bombAmount;
     }
 
@@ -40,7 +59,7 @@ public class BombController : MonoBehaviour
         position.x = Mathf.Round(position.x);
         position.y = Mathf.Round(position.y);
 
-        Debug.Log("Placing bomb at position: " + position);
+        Debug.Log($"Jugador {playerNumber} coloca bomba en: {position}");
         GameObject bomb = Instantiate(bombPrefab, position, Quaternion.identity);
         bombsRemaining--;
 
@@ -50,7 +69,7 @@ public class BombController : MonoBehaviour
         position.x = Mathf.Round(position.x);
         position.y = Mathf.Round(position.y);
 
-        Debug.Log("Explosion at position: " + position);
+        Debug.Log($"Jugador {playerNumber} provoca explosión en: {position}");
         Explosion explosion = Instantiate(explosionPrefab, position, Quaternion.identity);
         explosion.SetActivateRenderer(explosion.start);
         explosion.DestroyAfter(explosionDuration);
@@ -66,10 +85,7 @@ public class BombController : MonoBehaviour
 
     private void Explode(Vector2 position, Vector2 direction, int length)
     {
-        if (length == 0)
-        {
-            return;
-        }
+        if (length == 0) return;
         position += direction;
 
         if (Physics2D.OverlapBox(position, Vector2.one / 2f, 0f, obstacleLayer))
@@ -96,7 +112,9 @@ public class BombController : MonoBehaviour
             Instantiate(destructiblePrefab, position, Quaternion.identity);
         }
     }
-    public void ExtraBomb(){
+
+    public void ExtraBomb()
+    {
         bombAmount++;
         bombsRemaining++;
     }

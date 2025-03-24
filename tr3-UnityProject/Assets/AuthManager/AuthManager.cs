@@ -81,25 +81,30 @@ public class AuthManager : MonoBehaviour
     }
 
     private IEnumerator LoginCoroutinePlayer1(string username, string password, int playerNumber)
+{
+
+    string url = apiUrl + "/login";
+    WWWForm form = new WWWForm();
+    form.AddField("username", username);
+    form.AddField("password", password);
+
+    UnityWebRequest request = UnityWebRequest.Post(url, form);
+    yield return request.SendWebRequest();
+
+    if (request.result == UnityWebRequest.Result.Success)
     {
-        string url = apiUrl + "/login";
-        WWWForm form = new WWWForm();
-        form.AddField("username", username);
-        form.AddField("password", password);
+        isPlayer1LoggedIn = true;
+        messageText.text = "Login jugador 1!";
 
-        UnityWebRequest request = UnityWebRequest.Post(url, form);
-        yield return request.SendWebRequest();
+        PlayerData data = JsonUtility.FromJson<PlayerData>(request.downloadHandler.text);
+        PlayerDataManager.Instance.SetPlayerData(1, data.player); 
 
-        if (request.result == UnityWebRequest.Result.Success)
-        {
-            isPlayer1LoggedIn = true;
-            Debug.Log("Login jugador 1!");
-        }
-        else
-        {
-            messageText.text = "Error al iniciar sessió del jugador 1: " + request.downloadHandler.text;
-        }
     }
+    else
+    {
+        messageText.text = "Error al iniciar sesión jugador 1: " + request.downloadHandler.text;
+    }
+}
 
     private IEnumerator LoginCoroutinePlayer2(string username, string password, int playerNumber)
     {
@@ -115,6 +120,10 @@ public class AuthManager : MonoBehaviour
         {
             isPlayer2LoggedIn = true;
             Debug.Log("Login jugador 2!");
+
+            PlayerData data = JsonUtility.FromJson<PlayerData>(request.downloadHandler.text);
+            PlayerDataManager.Instance.SetPlayerData(2, data.player); 
+
         }
         else
         {

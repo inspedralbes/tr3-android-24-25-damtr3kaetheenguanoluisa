@@ -1,18 +1,18 @@
-using Unity.VisualScripting;
-using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class BombermanController : MonoBehaviour
 {
+    [Header("Player")]
+    public int playerNumber; // 1 para Jugador 1, 2 para Jugador 2
 
-    public new Rigidbody2D rigidbody { get; private set;}
+    public new Rigidbody2D rigidbody { get; private set; }
     private Vector2 direction = Vector2.down;
     public float speed = 5f;
 
-    public KeyCode inputUp = KeyCode.W;
-    public KeyCode inputDown = KeyCode.S;
-    public KeyCode inputLeft = KeyCode.A;
-    public KeyCode inputRight = KeyCode.D;
+    private KeyCode inputUp;
+    private KeyCode inputDown;
+    private KeyCode inputLeft;
+    private KeyCode inputRight;
 
     public AnimatorSpriteRenderer spriteRendererUp;
     public AnimatorSpriteRenderer spriteRendererDown;
@@ -21,29 +21,52 @@ public class BombermanController : MonoBehaviour
     public AnimatorSpriteRenderer spriteRendererDeath;
 
     private AnimatorSpriteRenderer activeSpriteRenderer;
+
     private void Awake()
     {
         rigidbody = GetComponent<Rigidbody2D>();
         activeSpriteRenderer = spriteRendererDown;
+
+        // Asignar controles según el jugador
+        if (playerNumber == 1)
+        {
+            inputUp = KeyCode.W;
+            inputDown = KeyCode.S;
+            inputLeft = KeyCode.A;
+            inputRight = KeyCode.D;
+        }
+        else if (playerNumber == 2)
+        {
+            inputUp = KeyCode.UpArrow;
+            inputDown = KeyCode.DownArrow;
+            inputLeft = KeyCode.LeftArrow;
+            inputRight = KeyCode.RightArrow;
+        }
     }
 
     private void Update()
     {
-        if(Input.GetKey(inputUp)){
-            SetDirection(Vector2.up,spriteRendererUp);
-  
-        }else if (Input.GetKey(inputDown)){
-            SetDirection(Vector2.down,spriteRendererDown);
-
-        }else if (Input.GetKey(inputLeft)){
-            SetDirection(Vector2.left,spriteRendererLeft);
-
-        }else if (Input.GetKey(inputRight)){
-            SetDirection(Vector2.right,spriteRendererRight);
-        }else{
-            SetDirection(Vector2.zero,activeSpriteRenderer);
+        if (Input.GetKey(inputUp))
+        {
+            SetDirection(Vector2.up, spriteRendererUp);
         }
-    } 
+        else if (Input.GetKey(inputDown))
+        {
+            SetDirection(Vector2.down, spriteRendererDown);
+        }
+        else if (Input.GetKey(inputLeft))
+        {
+            SetDirection(Vector2.left, spriteRendererLeft);
+        }
+        else if (Input.GetKey(inputRight))
+        {
+            SetDirection(Vector2.right, spriteRendererRight);
+        }
+        else
+        {
+            SetDirection(Vector2.zero, activeSpriteRenderer);
+        }
+    }
 
     private void FixedUpdate()
     {
@@ -56,7 +79,7 @@ public class BombermanController : MonoBehaviour
     private void SetDirection(Vector2 newDirection, AnimatorSpriteRenderer spriteRenderer)
     {
         direction = newDirection;
-        
+
         spriteRendererUp.enabled = spriteRenderer == spriteRendererUp;
         spriteRendererDown.enabled = spriteRenderer == spriteRendererDown;
         spriteRendererLeft.enabled = spriteRenderer == spriteRendererLeft;
@@ -68,11 +91,14 @@ public class BombermanController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.layer == LayerMask.NameToLayer("Explosion")){
+        if (other.gameObject.layer == LayerMask.NameToLayer("Explosion"))
+        {
             Death();
         }
     }
-    private void Death(){
+
+    private void Death()
+    {
         enabled = false;
         GetComponent<BombController>().enabled = false;
         spriteRendererUp.enabled = false;
@@ -83,9 +109,12 @@ public class BombermanController : MonoBehaviour
 
         Invoke(nameof(OnDeathEnd), 1.25f);
     }
-   private void OnDeathEnd()
+
+    private void OnDeathEnd()
     {
         gameObject.SetActive(false);
-    }
 
+        // Notificar al GameManager sobre la muerte
+        GameManager.Instance.PlayerDied(playerNumber);
+    }
 }

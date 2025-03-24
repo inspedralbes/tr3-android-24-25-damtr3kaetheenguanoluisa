@@ -2949,11 +2949,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a72570a1605eb6e469543d3ab3585b05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerNumber: 1
   speed: 5
-  inputUp: 119
-  inputDown: 115
-  inputLeft: 97
-  inputRight: 100
   spriteRendererUp: {fileID: 1020359485}
   spriteRendererDown: {fileID: 1327153106}
   spriteRendererLeft: {fileID: 2075160071}
@@ -3027,6 +3024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f769d36ecdcc9a14898db2660d5ba856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerNumber: 1
   inputKey: 32
   bombPrefab: {fileID: 2376822967732918614, guid: b47173073f769714c8489ba25c030293, type: 3}
   bombFuseTime: 3
@@ -3661,6 +3659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f769d36ecdcc9a14898db2660d5ba856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerNumber: 2
   inputKey: 303
   bombPrefab: {fileID: 2376822967732918614, guid: b47173073f769714c8489ba25c030293, type: 3}
   bombFuseTime: 3
@@ -3748,11 +3747,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a72570a1605eb6e469543d3ab3585b05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerNumber: 2
   speed: 5
-  inputUp: 273
-  inputDown: 274
-  inputLeft: 276
-  inputRight: 275
   spriteRendererUp: {fileID: 401016875}
   spriteRendererDown: {fileID: 1911389221}
   spriteRendererLeft: {fileID: 322988783}
