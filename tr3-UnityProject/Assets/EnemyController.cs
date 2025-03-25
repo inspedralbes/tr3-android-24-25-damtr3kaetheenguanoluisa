@@ -4,7 +4,7 @@ public class EnemyController : MonoBehaviour
 {
     public new Rigidbody2D rigidbody { get; private set; }
     private Vector2 direction = Vector2.zero;
-    public float speed = 1f;  // Velocidad más baja para movimiento sutil
+    public float speed = 1f; 
 
     public AnimatorSpriteRenderer spriteRendererUp;
     public AnimatorSpriteRenderer spriteRendererDown;
@@ -14,33 +14,30 @@ public class EnemyController : MonoBehaviour
 
     private AnimatorSpriteRenderer activeSpriteRenderer;
 
-    // Parámetros de aleatorización
-    public float changeDirectionTime = 2f;  // Tiempo para cambiar de dirección
-    private float changeDirectionTimer;      // Temporizador para cambiar la dirección
+    public float changeDirectionTime = 2f; 
+    private float changeDirectionTimer;      
 
-    private Vector2 startPosition;  // Posición inicial del enemigo
-    private float movementLimit = 0.5f;  // El límite máximo de movimiento (dentro de su casilla)
+    private Vector2 startPosition;  
+    private float movementLimit = 0.3f;  
 
     private void Awake()
     {
         rigidbody = GetComponent<Rigidbody2D>();
         activeSpriteRenderer = spriteRendererDown;
-        startPosition = rigidbody.position;  // Guardar la posición inicial
-        changeDirectionTimer = changeDirectionTime;  // Inicializa el temporizador
+        startPosition = rigidbody.position;  
+        changeDirectionTimer = changeDirectionTime; 
     }
 
     private void Update()
     {
-        // Actualiza el temporizador y cambia la dirección aleatoriamente
         changeDirectionTimer -= Time.deltaTime;
 
         if (changeDirectionTimer <= 0f)
         {
-            ChangeDirection();  // Cambiar dirección aleatoriamente
-            changeDirectionTimer = changeDirectionTime;  // Reiniciar el temporizador
+            ChangeDirection(); 
+            changeDirectionTimer = changeDirectionTime;  
         }
 
-        // Actualiza la animación según la dirección
         UpdateAnimation();
     }
 
@@ -49,24 +46,19 @@ public class EnemyController : MonoBehaviour
         Vector2 position = rigidbody.position;
         Vector2 translation = direction * speed * Time.fixedDeltaTime;
 
-        // Limitamos el movimiento del enemigo para que no se aleje de su casilla
         Vector2 newPosition = position + translation;
 
-        // Asegurarse de que el enemigo no se mueva más allá de un rango limitado de la posición inicial
         newPosition.x = Mathf.Clamp(newPosition.x, startPosition.x - movementLimit, startPosition.x + movementLimit);
         newPosition.y = Mathf.Clamp(newPosition.y, startPosition.y - movementLimit, startPosition.y + movementLimit);
 
         rigidbody.MovePosition(newPosition);
     }
 
-    // Cambia la dirección de forma aleatoria dentro de un rango limitado
     private void ChangeDirection()
     {
-        // Direcciones aleatorias muy pequeñas dentro de un rango
-        direction = new Vector2(Random.Range(-0.1f, 0.1f), Random.Range(-0.1f, 0.1f)).normalized;  // Movimiento más sutil
+        direction = new Vector2(Random.Range(-0.08f, 0.08f), Random.Range(-0.08f, 0.08f)).normalized;  
     }
 
-    // Actualiza la animación según la dirección
     private void UpdateAnimation()
     {
         if (direction == Vector2.up)
