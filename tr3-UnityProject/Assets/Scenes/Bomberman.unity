@@ -6629,8 +6629,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f769d36ecdcc9a14898db2660d5ba856, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerID: 1
-  inputKey: 277
+  playerID: 2
+  inputKey: 323
   bombPrefab: {fileID: 2376822967732918614, guid: b47173073f769714c8489ba25c030293, type: 3}
   bombFuseTime: 3
   bombAmount: 5

@@ -1,9 +1,12 @@
 using UnityEngine;
+using UnityEngine.Networking;
+using System.Collections;
+using MyGame.Models;
 
 public class BombermanController : MonoBehaviour
 {
     [Header("Player")]
-    public int playerNumber; // 1 para Jugador 1, 2 para Jugador 2
+    public int playerNumber; 
 
     public new Rigidbody2D rigidbody { get; private set; }
     private Vector2 direction = Vector2.down;
@@ -22,12 +25,16 @@ public class BombermanController : MonoBehaviour
 
     private AnimatorSpriteRenderer activeSpriteRenderer;
 
+    private int bombsUsed = 0;
+    private int enemiesDefeated = 0;
+
+    private int playerId;
+
     private void Awake()
     {
         rigidbody = GetComponent<Rigidbody2D>();
         activeSpriteRenderer = spriteRendererDown;
 
-        // Asignar controles según el jugador
         if (playerNumber == 1)
         {
             inputUp = KeyCode.W;
@@ -42,7 +49,11 @@ public class BombermanController : MonoBehaviour
             inputLeft = KeyCode.LeftArrow;
             inputRight = KeyCode.RightArrow;
         }
-    }
+        playerId = PlayerPrefs.GetInt("player" + playerNumber + "Id", -1);
+        speed = PlayerPrefs.GetInt($"player{playerNumber}speed", 5);
+        Debug.Log($"Jugador {playerNumber} - Velocidad: {speed}");
+        
+        } 
 
     private void Update()
     {
@@ -95,6 +106,14 @@ public class BombermanController : MonoBehaviour
         {
             Death();
         }
+        else if (other.gameObject.CompareTag("Enemy"))
+        {
+            enemiesDefeated++; 
+        }
+        else if (other.gameObject.CompareTag("Bomb"))
+        {
+            bombsUsed++; 
+        }
     }
 
     private void Death()
@@ -107,14 +126,45 @@ public class BombermanController : MonoBehaviour
         spriteRendererRight.enabled = false;
         spriteRendererDeath.enabled = true;
 
-        Invoke(nameof(OnDeathEnd), 1.25f);
+        Destroy(gameObject, 1f);
     }
 
-    private void OnDeathEnd()
-    {
-        gameObject.SetActive(false);
+    // private void UpdatePlayerStats()
+    // {
+    //     StartCoroutine(UpdatePlayerStatsOnServer());
+    // }
 
-        // Notificar al GameManager sobre la muerte
-        GameManager.Instance.PlayerDied(playerNumber);
-    }
+    // private IEnumerator UpdatePlayerStatsOnServer()
+    // {
+    //     // Recopilamos los datos actuales del jugador
+    //     PlayerInfo updatedPlayerInfo = new PlayerInfo
+    //     {
+    //         id = playerId,
+    //         bombs = bombsUsed,
+    //         victories = 0, 
+    //         enemiesDefeated = enemiesDefeated
+    //     };
+
+    //     string json = JsonUtility.ToJson(updatedPlayerInfo);
+
+    //     string url = "http://localhost:3020/players/" + playerId;
+    //     UnityWebRequest request = new UnityWebRequest(url, "PUT")
+    //     {
+    //         uploadHandler = new UploadHandlerRaw(System.Text.Encoding.UTF8.GetBytes(json)),
+    //         downloadHandler = new DownloadHandlerBuffer()
+    //     };
+    //     request.SetRequestHeader("Content-Type", "application/json");
+
+    //     yield return request.SendWebRequest();
+
+    //     if (request.result == UnityWebRequest.Result.Success)
+    //     {
+    //         Debug.Log("Estadísticas del jugador actualizadas correctamente");
+            
+    //     }
+    //     else
+    //     {
+    //         Debug.LogError("Error al actualizar estadísticas: " + request.error);
+    //     }
+    // }
 }

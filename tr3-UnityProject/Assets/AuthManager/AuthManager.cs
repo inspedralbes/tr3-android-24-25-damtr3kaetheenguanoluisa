@@ -3,6 +3,7 @@ using UnityEngine;
 using UnityEngine.Networking;
 using TMPro;
 using UnityEngine.SceneManagement;
+using MyGame.Models;
 
 public class AuthManager : MonoBehaviour
 {
@@ -44,13 +45,13 @@ public class AuthManager : MonoBehaviour
     public void LoginPlayer1()
     {
         Debug.Log("Iniciant sessió jugador1...");
-        StartCoroutine(LoginCoroutinePlayer1(usernameLoginInputP1.text, passwordLoginInputP1.text, 1));
+        StartCoroutine(LoginCoroutinePlayer1(usernameLoginInputP1.text, passwordLoginInputP1.text));
     }
 
     public void LoginPlayer2()
     {
         Debug.Log("Iniciant sessió jugador2...");
-        StartCoroutine(LoginCoroutinePlayer2(usernameLoginInputP2.text, passwordLoginInputP2.text, 2));
+        StartCoroutine(LoginCoroutinePlayer2(usernameLoginInputP2.text, passwordLoginInputP2.text));
     }
 
     private IEnumerator RegisterCoroutine(string username, string email, string password, int playerNumber)
@@ -61,75 +62,146 @@ public class AuthManager : MonoBehaviour
             yield break;
         }
 
-        string url = apiUrl + "/register";
         WWWForm form = new WWWForm();
         form.AddField("username", username);
         form.AddField("email", email);
         form.AddField("password", password);
 
-        UnityWebRequest request = UnityWebRequest.Post(url, form);
+        UnityWebRequest request = UnityWebRequest.Post($"{apiUrl}/register", form);
         yield return request.SendWebRequest();
 
         if (request.result == UnityWebRequest.Result.Success)
         {
-            Debug.Log($"Registre omplert del jugador {playerNumber}!");
+            PlayerData response = JsonUtility.FromJson<PlayerData>(request.downloadHandler.text);
+            if (response.success)
+            {
+                messageText.text = $"¡Jugador {playerNumber} registrat correctament!";
+                Debug.Log($"Jugador {playerNumber} registrat: {username}");
+            }
+            else
+            {
+                messageText.text = response.message ?? $"Error al registrar Jugador {playerNumber}";
+                Debug.LogError($"Error registre Jugador {playerNumber}: {response.message}");
+            }
         }
         else
         {
-            Debug.LogError($"Error registrat Player {playerNumber}: {request.downloadHandler.text}");
+            messageText.text = $"Error al registrar Jugador {playerNumber}: {request.error}";
+            Debug.LogError($"Error registre Jugador {playerNumber}: {request.error}");
         }
     }
 
-    private IEnumerator LoginCoroutinePlayer1(string username, string password, int playerNumber)
-{
-
-    string url = apiUrl + "/login";
-    WWWForm form = new WWWForm();
-    form.AddField("username", username);
-    form.AddField("password", password);
-
-    UnityWebRequest request = UnityWebRequest.Post(url, form);
-    yield return request.SendWebRequest();
-
-    if (request.result == UnityWebRequest.Result.Success)
+    private IEnumerator LoginCoroutinePlayer1(string username, string password)
     {
-        isPlayer1LoggedIn = true;
-        messageText.text = "Login jugador 1!";
-
-        PlayerData data = JsonUtility.FromJson<PlayerData>(request.downloadHandler.text);
-        PlayerDataManager.Instance.SetPlayerData(1, data.player); 
-
-    }
-    else
-    {
-        messageText.text = "Error al iniciar sesión jugador 1: " + request.downloadHandler.text;
-    }
-}
-
-    private IEnumerator LoginCoroutinePlayer2(string username, string password, int playerNumber)
-    {
-        string url = apiUrl + "/login";
         WWWForm form = new WWWForm();
         form.AddField("username", username);
         form.AddField("password", password);
 
-        UnityWebRequest request = UnityWebRequest.Post(url, form);
+        UnityWebRequest request = UnityWebRequest.Post($"{apiUrl}/login", form);
         yield return request.SendWebRequest();
 
         if (request.result == UnityWebRequest.Result.Success)
         {
-            isPlayer2LoggedIn = true;
-            Debug.Log("Login jugador 2!");
-
             PlayerData data = JsonUtility.FromJson<PlayerData>(request.downloadHandler.text);
-            PlayerDataManager.Instance.SetPlayerData(2, data.player); 
+            if (data.success)
+            {
+                isPlayer1LoggedIn = true;
+                Debug.Log("Login jugador 1!");
 
+                PlayerPrefs.SetInt("player1Id", data.player.id);
+                PlayerPrefs.SetString("player1Username", data.player.username);
+                PlayerPrefs.SetInt("player1Bombs", data.player.bombs);
+                PlayerPrefs.SetInt("player1Victories", data.player.victories);
+                PlayerPrefs.SetInt("player1EnemiesDefeated", data.player.enemiesDefeated);
+                PlayerPrefs.Save();
+
+                messageText.text = "Jugador 1 conectado correctamente!";
+                StartCoroutine(LoadStatsFromServer(data.player.id));
+            }
+            else
+            {
+                messageText.text = data.message;
+                Debug.LogError($"Error login Jugador 1: {data.message}");
+            }
         }
         else
         {
-            messageText.text = "Error al iniciar sessió jugador 2: " + request.downloadHandler.text;
+            messageText.text = "Error de conexión";
+            Debug.LogError($"Error de conexión Jugador 1: {request.error}");
         }
     }
+
+    private IEnumerator LoginCoroutinePlayer2(string username, string password)
+    {
+        WWWForm form = new WWWForm();
+        form.AddField("username", username);
+        form.AddField("password", password);
+
+        UnityWebRequest request = UnityWebRequest.Post($"{apiUrl}/login", form);
+        yield return request.SendWebRequest();
+
+        if (request.result == UnityWebRequest.Result.Success)
+        {
+            PlayerData data = JsonUtility.FromJson<PlayerData>(request.downloadHandler.text);
+            if (data.success)
+            {
+                isPlayer2LoggedIn = true;
+                Debug.Log("Login jugador 2!");
+
+                PlayerPrefs.SetInt("player2Id", data.player.id);
+                PlayerPrefs.SetString("player2Username", data.player.username);
+                PlayerPrefs.SetInt("player2Bombs", data.player.bombs);
+                PlayerPrefs.SetInt("player2Victories", data.player.victories);
+                PlayerPrefs.SetInt("player2EnemiesDefeated", data.player.enemiesDefeated);
+                PlayerPrefs.Save();
+
+                messageText.text = "Jugador 2 conectat correctament!";
+                 StartCoroutine(LoadStatsFromServer(data.player.id));
+            
+            }
+            else
+            {
+                messageText.text = data.message;
+                Debug.LogError($"Error login Jugador 2: {data.message}");
+            }
+        }
+        else
+        {
+            Debug.LogError($"Error en el login del jugador 2: {request.error}");
+            messageText.text = "Error en la connexió";
+        }
+    }
+
+    private IEnumerator LoadStatsFromServer(int playerId)
+    {
+        string url = $"{apiUrl}/{playerId}";
+        Debug.Log("Fetching stats from: " + url);
+
+        using (UnityWebRequest www = UnityWebRequest.Get(url))
+        {
+            yield return www.SendWebRequest();
+
+            if (www.result == UnityWebRequest.Result.Success)
+            {
+                string responseData = www.downloadHandler.text;
+                Debug.Log("Response data: " + responseData);
+
+                PlayerData data = JsonUtility.FromJson<PlayerData>(responseData);
+                PlayerPrefs.SetInt($"player{playerId}bombs", data.player.bombs);
+                PlayerPrefs.SetInt($"player{playerId}speed", data.player.speed);
+                PlayerPrefs.SetInt($"player{playerId}enemiesDefeated", data.player.enemiesDefeated);
+                PlayerPrefs.SetInt($"player{playerId}wins", data.player.victories);
+
+                PlayerPrefs.Save();
+                Debug.Log($"Stats carreguedes pel jugador {playerId}: bombs={data.player.bombs}, speed={data.player.speed}, enemiesDefeated={data.player.enemiesDefeated}, wins={data.player.victories}");
+            }
+            else
+            {
+                Debug.LogError("Error carregant dades: " + www.error);
+            }
+        }
+    }
+
     public void Jugar()
     {
         if (AreBothPlayersLoggedIn())
@@ -147,24 +219,4 @@ public class AuthManager : MonoBehaviour
     {
         return isPlayer1LoggedIn && isPlayer2LoggedIn;
     }
-}
-
-
-[System.Serializable]
-public class PlayerData
-{
-    public bool success;
-    public string message;
-    public string token;
-    public PlayerInfo player;
-}
-
-[System.Serializable]
-public class PlayerInfo
-{
-    public int id;
-    public string username;
-    public int bombs;
-    public int victories;
-    public int enemiesDefeated;
 }
