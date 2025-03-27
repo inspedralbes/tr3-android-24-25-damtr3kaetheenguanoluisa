@@ -5,6 +5,7 @@ using UnityEngine.Tilemaps;
 public class BombController : MonoBehaviour
 {
     [Header("Jugador")]
+    private BombermanController playerController;
     public int playerID = 1;  
 
     [Header("Bomb")]
@@ -26,22 +27,44 @@ public class BombController : MonoBehaviour
 
     private void OnEnable()
     {
-        bombsRemaining = bombAmount;
+        this.bombsRemaining = bombAmount;
     }
 
     private void Start()
     {
-        Debug.Log("Jugador asignado: " + playerID);
+        playerController = GetComponent<BombermanController>();
+        if (playerController != null)
+        {
+            playerID = playerController.playerNumber;
+            Debug.Log($"BombController - Jugador {playerID} iniciat");
+        }
+
         AsignarTeclas();
         bombAmount = PlayerPrefs.GetInt($"player{playerID}Bombs", 5);
         bombsRemaining = bombAmount;
+        Debug.Log($"Jugador {playerID} - Bombas inicials: {bombAmount}, Tecla assignada: {inputKey}");
     }
 
     private void Update()
     {
-        if (bombsRemaining > 0 && Input.GetKeyDown(inputKey))
+        if (bombsRemaining > 0)
         {
-            StartCoroutine(PlaceBomb());
+            bool shouldPlaceBomb = false;
+
+            if (Input.GetKeyDown(inputKey))
+            {
+                shouldPlaceBomb = true;
+            }
+
+            if (playerID == 2 && Input.GetKeyDown(KeyCode.Keypad0))
+            {
+                shouldPlaceBomb = true;
+            }
+
+            if (shouldPlaceBomb)
+            {
+                StartCoroutine(PlaceBomb());
+            }
         }
     }
 
@@ -51,9 +74,16 @@ public class BombController : MonoBehaviour
         position.x = Mathf.Round(position.x);
         position.y = Mathf.Round(position.y);
 
-        Debug.Log("Jugador " + playerID + " colocando bomba en: " + position);
+        Debug.Log("Jugador " + playerID + " colocant bomba en: " + position);
         GameObject bomb = Instantiate(bombPrefab, position, Quaternion.identity);
         bombsRemaining--;
+
+        BombermanController player = GetComponent<BombermanController>();
+        if (player != null)
+        {
+            Debug.Log($"📊 Bombes utilitzades per {player.playerNumber}: {player.bombsUsed}");
+            player.IncrementBombsUsed();
+        }
 
         yield return new WaitForSeconds(bombFuseTime);
 
@@ -61,7 +91,7 @@ public class BombController : MonoBehaviour
         position.x = Mathf.Round(position.x);
         position.y = Mathf.Round(position.y);
 
-        Debug.Log("Explosión en posición: " + position);
+        Debug.Log("Explosió en posició: " + position);
         Explosion explosion = Instantiate(explosionPrefab, position, Quaternion.identity);
         explosion.SetActivateRenderer(explosion.start);
         explosion.DestroyAfter(explosionDuration);
@@ -93,6 +123,21 @@ public class BombController : MonoBehaviour
         explosion.SetActivateRenderer(length > 1 ? explosion.middle : explosion.end);
         explosion.SetDirection(direction);
         explosion.DestroyAfter(explosionDuration);
+
+        Collider2D[] hitObjects = Physics2D.OverlapCircleAll(position, 0.5f);
+        foreach (Collider2D hit in hitObjects)
+        {
+            if (hit.CompareTag("Enemy"))
+            {
+                BombermanController player = GetComponent<BombermanController>();
+                if (player != null)
+                {
+                    player.enemiesDefeated++;
+                    Debug.Log($"📊 Enemics derrotats per jugador {player.playerNumber}: {player.enemiesDefeated}");
+                }
+                Destroy(hit.gameObject);
+            }
+        }
 
         Explode(position, direction, length - 1);
     }

@@ -4,6 +4,7 @@ using UnityEngine.Networking;
 using TMPro;
 using UnityEngine.SceneManagement;
 using MyGame.Models;
+using System.Collections.Generic;
 
 public class AuthManager : MonoBehaviour
 {
@@ -29,7 +30,23 @@ public class AuthManager : MonoBehaviour
 
     public TextMeshProUGUI messageText;
     private string apiUrl = "http://localhost:3020/players";
+    public static AuthManager instance;
+    private string updateStatsURL = "http://localhost:3020/players/updateUsers"; 
 
+    public static AuthManager Instance { get; private set; }
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject); 
+        }
+        else
+        {
+            Destroy(gameObject); 
+        }
+    }
     public void RegisterPlayer1()
     {
         Debug.Log("Registrando jugador 1...");
@@ -110,12 +127,13 @@ public class AuthManager : MonoBehaviour
 
                 PlayerPrefs.SetInt("player1Id", data.player.id);
                 PlayerPrefs.SetString("player1Username", data.player.username);
-                PlayerPrefs.SetInt("player1Bombs", data.player.bombs);
+                PlayerPrefs.SetString("player1Bombs", data.player.bombAmount.ToString());
+                PlayerPrefs.SetInt("player1BombsUsed", data.player.bombsUsed);
                 PlayerPrefs.SetInt("player1Victories", data.player.victories);
                 PlayerPrefs.SetInt("player1EnemiesDefeated", data.player.enemiesDefeated);
                 PlayerPrefs.Save();
 
-                messageText.text = "Jugador 1 conectado correctamente!";
+                messageText.text = "Jugador 1 conectat correctament!";
                 StartCoroutine(LoadStatsFromServer(data.player.id));
             }
             else
@@ -127,7 +145,7 @@ public class AuthManager : MonoBehaviour
         else
         {
             messageText.text = "Error de conexión";
-            Debug.LogError($"Error de conexión Jugador 1: {request.error}");
+            Debug.LogError($"Error de connexió Jugador 1: {request.error}");
         }
     }
 
@@ -150,14 +168,14 @@ public class AuthManager : MonoBehaviour
 
                 PlayerPrefs.SetInt("player2Id", data.player.id);
                 PlayerPrefs.SetString("player2Username", data.player.username);
-                PlayerPrefs.SetInt("player2Bombs", data.player.bombs);
+                PlayerPrefs.SetInt("player2Bombs", data.player.bombAmount);
+                PlayerPrefs.SetInt("player2BombsUsed", data.player.bombsUsed);
                 PlayerPrefs.SetInt("player2Victories", data.player.victories);
                 PlayerPrefs.SetInt("player2EnemiesDefeated", data.player.enemiesDefeated);
                 PlayerPrefs.Save();
 
                 messageText.text = "Jugador 2 conectat correctament!";
-                 StartCoroutine(LoadStatsFromServer(data.player.id));
-            
+                StartCoroutine(LoadStatsFromServer(data.player.id));
             }
             else
             {
@@ -175,29 +193,62 @@ public class AuthManager : MonoBehaviour
     private IEnumerator LoadStatsFromServer(int playerId)
     {
         string url = $"{apiUrl}/{playerId}";
-        Debug.Log("Fetching stats from: " + url);
 
         using (UnityWebRequest www = UnityWebRequest.Get(url))
         {
+            www.SetRequestHeader("Content-Type", "application/json");
+            www.SetRequestHeader("Accept", "application/json");
             yield return www.SendWebRequest();
 
             if (www.result == UnityWebRequest.Result.Success)
             {
                 string responseData = www.downloadHandler.text;
-                Debug.Log("Response data: " + responseData);
+                Debug.Log($"📥 JSON recibido del servidor:\n{responseData}");
 
-                PlayerData data = JsonUtility.FromJson<PlayerData>(responseData);
-                PlayerPrefs.SetInt($"player{playerId}bombs", data.player.bombs);
-                PlayerPrefs.SetInt($"player{playerId}speed", data.player.speed);
-                PlayerPrefs.SetInt($"player{playerId}enemiesDefeated", data.player.enemiesDefeated);
-                PlayerPrefs.SetInt($"player{playerId}wins", data.player.victories);
+                try 
+                {
+                    PlayerData data = JsonUtility.FromJson<PlayerData>(responseData);
+                    
+                    if (data == null || data.player == null)
+                    {
+                        Debug.LogError("❌ Error: Dades  jugador nules");
+                        yield break;
+                    }
 
-                PlayerPrefs.Save();
-                Debug.Log($"Stats carreguedes pel jugador {playerId}: bombs={data.player.bombs}, speed={data.player.speed}, enemiesDefeated={data.player.enemiesDefeated}, wins={data.player.victories}");
+                    Debug.Log($"Objeto PlayerData:\n" +
+                        $"Success: {data.success}\n" +
+                        $"Message: {data.message}\n" +
+                        $"Player: {data.player.username}");
+
+                    int defaultBombs = 5;
+                    int defaultSpeed = 5;
+
+                    int bombAmount = data.player.bombs > 0 ? data.player.bombs : defaultBombs;
+                    int speed = data.player.speed > 0 ? data.player.speed : defaultSpeed;
+
+                    PlayerPrefs.SetInt($"player{playerId}Bombs", bombAmount);
+                    PlayerPrefs.SetInt($"player{playerId}BombsUsed", data.player.bombsUsed);
+                    PlayerPrefs.SetInt($"player{playerId}speed", speed);
+                    PlayerPrefs.SetInt($"player{playerId}enemiesDefeated", data.player.enemiesDefeated);
+                    PlayerPrefs.SetInt($"player{playerId}victories", data.player.victories);
+
+                    PlayerPrefs.Save();
+
+                    Debug.Log($"✅ Valors guardats en PlayerPrefs para jugador {playerId}:\n" +
+                        $"Bombas: {PlayerPrefs.GetInt($"player{playerId}Bombs")} \n" +
+                        $"Bombas usadas: {PlayerPrefs.GetInt($"player{playerId}BombsUsed")}\n" +
+                        $"Velocidad: {PlayerPrefs.GetInt($"player{playerId}speed")}\n" +
+                        $"Enemigos derrotados: {PlayerPrefs.GetInt($"player{playerId}enemiesDefeated")} \n" +
+                        $"Victorias: {PlayerPrefs.GetInt($"player{playerId}victories")}");
+                }
+                catch (System.Exception e)
+                {
+                    Debug.LogError($"❌ Error al processar JSON: {e.Message}\nJSON rebut: {responseData}\nStack trace: {e.StackTrace}");
+                }
             }
             else
             {
-                Debug.LogError("Error carregant dades: " + www.error);
+                Debug.LogError($"❌ Error al carregar dades: {www.error}\nCodi: {www.responseCode}\nText: {www.downloadHandler?.text}");
             }
         }
     }
@@ -218,5 +269,112 @@ public class AuthManager : MonoBehaviour
     private bool AreBothPlayersLoggedIn()
     {
         return isPlayer1LoggedIn && isPlayer2LoggedIn;
+    }
+      public void UpdatePlayerStats(int playerNumber, int bombAmount, int bombsUsed, int speed, int victories, int enemiesDefeated)
+    {
+        List<PlayerInfo> players = new List<PlayerInfo>();
+
+        PlayerInfo player = new PlayerInfo
+        {
+            username = PlayerPrefs.GetString($"player{playerNumber}Username", ""),
+            bombs = bombAmount, 
+            bombsUsed = bombsUsed,
+            speed = speed,
+            victories = victories,
+            enemiesDefeated = enemiesDefeated
+        };
+
+        if (!string.IsNullOrEmpty(player.username))
+        {
+            players.Add(player);
+            StartCoroutine(SendStatsToServer(players));  
+        }
+        else
+        {
+            Debug.LogError($"Usuari no trobat per el jugador {playerNumber}");
+        }
+    }
+    
+   public IEnumerator SendStatsToServer(List<PlayerInfo> playersInfo)
+    {
+        if (playersInfo.Count == 0)
+        {
+            Debug.LogError("No hi ha jugadors per enviar stats");
+            yield break;
+        }
+
+        List<PlayerUpdateInfo> players = new List<PlayerUpdateInfo>();
+        foreach (var info in playersInfo)
+        {
+            int playerNumber = 1;
+            if (info.username == PlayerPrefs.GetString("player2Username"))
+            {
+                playerNumber = 2;
+            }
+
+            int playerId = PlayerPrefs.GetInt($"player{playerNumber}Id", 0);
+            Debug.Log($"Jugador {playerNumber} (ID: {playerId}): {info.username}");
+
+            if (playerId == 0)
+            {
+                Debug.LogError($"Error: ID no válid pel jugador {playerNumber}");
+                continue;
+            }
+
+            PlayerUpdateInfo playerUpdate = new PlayerUpdateInfo
+            {
+                id = playerId,
+                username = info.username,
+                bombAmount = info.bombs,
+                bombsUsed = info.bombsUsed,
+                speed = info.speed,
+                victories = info.victories,
+                enemiesDefeated = info.enemiesDefeated
+            };
+            players.Add(playerUpdate);
+        }
+
+        if (players.Count == 0)
+        {
+            Debug.LogError("No hi ha jugadoors per actualitzar");
+            yield break;
+        }
+
+        PlayersData playersData = new PlayersData { players = players };
+        string jsonData = JsonUtility.ToJson(playersData);
+        Debug.Log($"Enviant dades al servidor:\n{jsonData}");
+
+        byte[] bodyRaw = System.Text.Encoding.UTF8.GetBytes(jsonData);
+
+        using (UnityWebRequest www = new UnityWebRequest(updateStatsURL, "POST"))
+        {
+            www.uploadHandler = new UploadHandlerRaw(bodyRaw);
+            www.downloadHandler = new DownloadHandlerBuffer();
+            www.SetRequestHeader("Content-Type", "application/json");
+
+            yield return www.SendWebRequest();
+
+            string responseText = www.downloadHandler?.text ?? "No response";
+          
+
+            if (www.result == UnityWebRequest.Result.Success && !string.IsNullOrEmpty(responseText))
+            {
+                Debug.Log($"📡 Stats enviades correctament per {players.Count} jugadores.");
+            }
+            else
+            {
+                string error = www.error;
+                if (string.IsNullOrEmpty(error) && www.responseCode != 200)
+                {
+                    error = $"HTTP Error {www.responseCode}";
+                }
+                Debug.LogError($"Error al actualizar stats:\n" +
+                    $"URL: {updateStatsURL}\n" +
+                    $"Error: {error}\n" +
+                    $"Codi HTTP: {www.responseCode}\n" +
+                    $"Resposta: {responseText}\n" +
+                    $"JSON enviat: {jsonData}");
+            }
+        }
     }
 }

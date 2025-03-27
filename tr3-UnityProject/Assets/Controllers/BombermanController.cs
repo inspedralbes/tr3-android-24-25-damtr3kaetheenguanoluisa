@@ -25,15 +25,20 @@ public class BombermanController : MonoBehaviour
 
     private AnimatorSpriteRenderer activeSpriteRenderer;
 
-    private int bombsUsed = 0;
-    private int enemiesDefeated = 0;
-
-    private int playerId;
+    public int bombsUsed = 0;
+    public int enemiesDefeated = 0;
+    public int victories { get; set; }
+    public int playerId;
 
     private void Awake()
     {
         rigidbody = GetComponent<Rigidbody2D>();
         activeSpriteRenderer = spriteRendererDown;
+
+        bombsUsed = PlayerPrefs.GetInt($"player{playerNumber}BombsUsed", 0);
+        enemiesDefeated = PlayerPrefs.GetInt($"player{playerNumber}enemiesDefeated", 0);
+        victories = PlayerPrefs.GetInt($"player{playerNumber}victories", 0);
+        speed = PlayerPrefs.GetInt($"player{playerNumber}speed", 5);
 
         if (playerNumber == 1)
         {
@@ -50,10 +55,13 @@ public class BombermanController : MonoBehaviour
             inputRight = KeyCode.RightArrow;
         }
         playerId = PlayerPrefs.GetInt("player" + playerNumber + "Id", -1);
-        speed = PlayerPrefs.GetInt($"player{playerNumber}speed", 5);
-        Debug.Log($"Jugador {playerNumber} - Velocidad: {speed}");
-        
-        } 
+
+        Debug.Log($"Jugador {playerNumber} inicialitzat amb:\n" +
+            $"Bombes utlitzades: {bombsUsed}\n" +
+            $"Enemics eliminats: {enemiesDefeated}\n" +
+            $"Victories: {victories}\n" +
+            $"Velocitat: {speed}");
+    }
 
     private void Update()
     {
@@ -109,11 +117,14 @@ public class BombermanController : MonoBehaviour
         else if (other.gameObject.CompareTag("Enemy"))
         {
             enemiesDefeated++; 
+            Debug.Log($" Enemics derrotats pel jugador{playerNumber}: {enemiesDefeated}");
         }
-        else if (other.gameObject.CompareTag("Bomb"))
-        {
-            bombsUsed++; 
-        }
+    }
+
+    public void IncrementBombsUsed()
+    {
+        bombsUsed++;
+        Debug.Log($" Bombes utilitzades per jugador {playerNumber}: {bombsUsed}");
     }
 
     private void Death()
@@ -127,44 +138,8 @@ public class BombermanController : MonoBehaviour
         spriteRendererDeath.enabled = true;
 
         Destroy(gameObject, 1f);
+
+        GameManager.instance.PlayerDied(this);
+
     }
-
-    // private void UpdatePlayerStats()
-    // {
-    //     StartCoroutine(UpdatePlayerStatsOnServer());
-    // }
-
-    // private IEnumerator UpdatePlayerStatsOnServer()
-    // {
-    //     // Recopilamos los datos actuales del jugador
-    //     PlayerInfo updatedPlayerInfo = new PlayerInfo
-    //     {
-    //         id = playerId,
-    //         bombs = bombsUsed,
-    //         victories = 0, 
-    //         enemiesDefeated = enemiesDefeated
-    //     };
-
-    //     string json = JsonUtility.ToJson(updatedPlayerInfo);
-
-    //     string url = "http://localhost:3020/players/" + playerId;
-    //     UnityWebRequest request = new UnityWebRequest(url, "PUT")
-    //     {
-    //         uploadHandler = new UploadHandlerRaw(System.Text.Encoding.UTF8.GetBytes(json)),
-    //         downloadHandler = new DownloadHandlerBuffer()
-    //     };
-    //     request.SetRequestHeader("Content-Type", "application/json");
-
-    //     yield return request.SendWebRequest();
-
-    //     if (request.result == UnityWebRequest.Result.Success)
-    //     {
-    //         Debug.Log("Estadísticas del jugador actualizadas correctamente");
-            
-    //     }
-    //     else
-    //     {
-    //         Debug.LogError("Error al actualizar estadísticas: " + request.error);
-    //     }
-    // }
 }
