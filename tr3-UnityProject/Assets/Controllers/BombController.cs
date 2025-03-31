@@ -160,6 +160,6 @@ public class BombController : MonoBehaviour
     }
      private void AsignarTeclas()
     {
-        inputKey = playerID == 1 ? KeyCode.Space : KeyCode.Mouse0;
+        inputKey = playerID == 1 ? KeyCode.Space : KeyCode.Mouse1;
     }
 }

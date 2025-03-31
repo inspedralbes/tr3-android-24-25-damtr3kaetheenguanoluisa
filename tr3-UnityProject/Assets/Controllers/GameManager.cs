@@ -87,7 +87,26 @@ public class GameManager : MonoBehaviour
     }
     else
     {
-        Debug.LogWarning("⚠️ No hi ha jugadors vàlids per enviar dades. ");
+        Debug.LogWarning("⚠️ No hi ha jugadors vàlids per enviar dades.");
+    }
+
+    BombermanController winner = DetermineWinner();
+    if (winner != null)
+    {
+        string winnerName = PlayerPrefs.GetString($"player{winner.playerNumber}Username", "Desconocido");
+
+        if (VictoryScreen.instance != null)
+        {
+            VictoryScreen.instance.ShowVictoryScreen(winnerName);
+        }
+        else
+        {
+            Debug.LogError("❌ VictoryScreen.instance no está inicializado. Asegúrate de que el objeto VictoryScreen esté en la escena.");
+        }
+    }
+    else
+    {
+        Debug.LogWarning("⚠️ No se pudo determinar un ganador.");
     }
 }
 
