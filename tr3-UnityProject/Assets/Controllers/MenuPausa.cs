@@ -38,4 +38,7 @@ public class MenuPausa : MonoBehaviour
         Debug.Log("Tancant joc...");
         Application.Quit();
     }
+    public void Home(){
+        SceneManager.LoadScene("Main");
+    }
 }

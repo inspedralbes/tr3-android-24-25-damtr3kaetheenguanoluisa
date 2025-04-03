@@ -29,9 +29,9 @@ public class AuthManager : MonoBehaviour
     public TMP_InputField passwordRegisterInputP2;
 
     public TextMeshProUGUI messageText;
-    private string apiUrl = "http://localhost:3020/players";
+    private string apiUrl = "http://dam.inspedralbes.cat:22200/players";
     public static AuthManager instance;
-    private string updateStatsURL = "http://localhost:3020/players/updateUsers"; 
+    private string updateStatsURL = "http://dam.inspedralbes.cat:22200/players/updateUsers"; 
 
     public static AuthManager Instance { get; private set; }
 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      winner (circulo)_0: -7421640998393444727
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

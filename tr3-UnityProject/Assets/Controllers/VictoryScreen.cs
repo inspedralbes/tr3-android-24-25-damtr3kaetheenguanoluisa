@@ -1,5 +1,7 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 
 public class VictoryScreen : MonoBehaviour
 {
@@ -27,4 +29,12 @@ public class VictoryScreen : MonoBehaviour
         victoryCanvas.SetActive(true);
         winnerText.text = $"Guanyador: {winnerName}!";
     }
+    public void Home(){
+        SceneManager.LoadScene("Main");
+    }
+   public void TornarAJugar()
+{
+    Time.timeScale = 1f; 
+    SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
+}
 }
