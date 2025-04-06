@@ -1,0 +1,3822 @@
+fileFormatVersion: 2
+guid: 49696f9a84e39f24d9815e3f0fdb39f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3653564951714411607
+    second: enemigos bomberman_0
+  - first:
+      213: 8803592859027034891
+    second: enemigos bomberman_1
+  - first:
+      213: -5529479909727167796
+    second: enemigos bomberman_2
+  - first:
+      213: -3860205531602250013
+    second: enemigos bomberman_3
+  - first:
+      213: 5472948852448662534
+    second: enemigos bomberman_4
+  - first:
+      213: 1240148623036557814
+    second: enemigos bomberman_5
+  - first:
+      213: 3947671232336395465
+    second: enemigos bomberman_6
+  - first:
+      213: -8413355271456742640
+    second: enemigos bomberman_7
+  - first:
+      213: -1981023261210842210
+    second: enemigos bomberman_8
+  - first:
+      213: -5003183645031967765
+    second: enemigos bomberman_9
+  - first:
+      213: 8224258936650745720
+    second: enemigos bomberman_10
+  - first:
+      213: 7816102507467585589
+    second: enemigos bomberman_11
+  - first:
+      213: -6750534632577131209
+    second: enemigos bomberman_12
+  - first:
+      213: 5720027708599658009
+    second: enemigos bomberman_13
+  - first:
+      213: -6578481368193681356
+    second: enemigos bomberman_14
+  - first:
+      213: 1023537972160572055
+    second: enemigos bomberman_15
+  - first:
+      213: -1615796190889509972
+    second: enemigos bomberman_16
+  - first:
+      213: -5147849461737805268
+    second: enemigos bomberman_17
+  - first:
+      213: 2674579915928467465
+    second: enemigos bomberman_18
+  - first:
+      213: 7391491646095191276
+    second: enemigos bomberman_19
+  - first:
+      213: 181315946673522622
+    second: enemigos bomberman_20
+  - first:
+      213: 5912137445907082272
+    second: enemigos bomberman_21
+  - first:
+      213: 8182439232068038378
+    second: enemigos bomberman_22
+  - first:
+      213: 986984716661748735
+    second: enemigos bomberman_23
+  - first:
+      213: -7912416646033950297
+    second: enemigos bomberman_24
+  - first:
+      213: -1579799743391437146
+    second: enemigos bomberman_25
+  - first:
+      213: 2786388095294348903
+    second: enemigos bomberman_26
+  - first:
+      213: -6692686301957813110
+    second: enemigos bomberman_27
+  - first:
+      213: -4284259070290995898
+    second: enemigos bomberman_28
+  - first:
+      213: -3917304645085870351
+    second: enemigos bomberman_29
+  - first:
+      213: 7195282198211412091
+    second: enemigos bomberman_30
+  - first:
+      213: -6646561856577747065
+    second: enemigos bomberman_31
+  - first:
+      213: -8968960280169861282
+    second: enemigos bomberman_32
+  - first:
+      213: 510986591027412224
+    second: enemigos bomberman_33
+  - first:
+      213: 473256111976026234
+    second: enemigos bomberman_34
+  - first:
+      213: 3690797929829090442
+    second: enemigos bomberman_35
+  - first:
+      213: 164166612760942893
+    second: enemigos bomberman_36
+  - first:
+      213: 6874051055138403301
+    second: enemigos bomberman_37
+  - first:
+      213: -622931813685817025
+    second: enemigos bomberman_38
+  - first:
+      213: -1620081826408964819
+    second: enemigos bomberman_39
+  - first:
+      213: 5861748953366852430
+    second: enemigos bomberman_40
+  - first:
+      213: 5920428019289178751
+    second: enemigos bomberman_41
+  - first:
+      213: -2398994266137861093
+    second: enemigos bomberman_42
+  - first:
+      213: -7686950291006588154
+    second: enemigos bomberman_43
+  - first:
+      213: -4934119829326664556
+    second: enemigos bomberman_44
+  - first:
+      213: 2008628499314410057
+    second: enemigos bomberman_45
+  - first:
+      213: 8414317187520347398
+    second: enemigos bomberman_46
+  - first:
+      213: 3709923015817499350
+    second: enemigos bomberman_47
+  - first:
+      213: 6652861697309780438
+    second: enemigos bomberman_48
+  - first:
+      213: -1350175976458857889
+    second: enemigos bomberman_49
+  - first:
+      213: -7608167217469633074
+    second: enemigos bomberman_50
+  - first:
+      213: -3542422965936445777
+    second: enemigos bomberman_51
+  - first:
+      213: 8313229918062355927
+    second: enemigos bomberman_52
+  - first:
+      213: -5224459725049301573
+    second: enemigos bomberman_53
+  - first:
+      213: 4620206479807846235
+    second: enemigos bomberman_54
+  - first:
+      213: -388977870028636463
+    second: enemigos bomberman_55
+  - first:
+      213: -2783741098025335335
+    second: enemigos bomberman_56
+  - first:
+      213: -8686541404232890750
+    second: enemigos bomberman_57
+  - first:
+      213: 7020131028007148206
+    second: enemigos bomberman_58
+  - first:
+      213: 7591169439853118511
+    second: enemigos bomberman_59
+  - first:
+      213: 6070251349795593745
+    second: enemigos bomberman_60
+  - first:
+      213: 8999101153332676175
+    second: enemigos bomberman_61
+  - first:
+      213: 6112289553624094464
+    second: enemigos bomberman_62
+  - first:
+      213: 6771404274824000820
+    second: enemigos bomberman_63
+  - first:
+      213: 1956085110536088982
+    second: enemigos bomberman_64
+  - first:
+      213: 3127994491641420155
+    second: enemigos bomberman_65
+  - first:
+      213: 667739030397339585
+    second: enemigos bomberman_66
+  - first:
+      213: -796889180331645723
+    second: enemigos bomberman_67
+  - first:
+      213: -8855561583064391814
+    second: enemigos bomberman_68
+  - first:
+      213: 7450302966627894231
+    second: enemigos bomberman_69
+  - first:
+      213: 1060831888177406221
+    second: enemigos bomberman_70
+  - first:
+      213: -1817937562496347474
+    second: enemigos bomberman_71
+  - first:
+      213: -1440574308388507308
+    second: enemigos bomberman_72
+  - first:
+      213: 632551544503939833
+    second: enemigos bomberman_73
+  - first:
+      213: -3311065779505386606
+    second: enemigos bomberman_74
+  - first:
+      213: -6654263177700718359
+    second: enemigos bomberman_75
+  - first:
+      213: 4754348730613439943
+    second: enemigos bomberman_76
+  - first:
+      213: 6493489712947372640
+    second: enemigos bomberman_77
+  - first:
+      213: 6307641306218469644
+    second: enemigos bomberman_78
+  - first:
+      213: 5417123606765104522
+    second: enemigos bomberman_79
+  - first:
+      213: 9062227272954825142
+    second: enemigos bomberman_80
+  - first:
+      213: 72515254513778061
+    second: enemigos bomberman_81
+  - first:
+      213: -9217584295881286556
+    second: enemigos bomberman_82
+  - first:
+      213: 580084951689099679
+    second: enemigos bomberman_83
+  - first:
+      213: 3488738719635876924
+    second: enemigos bomberman_84
+  - first:
+      213: 2346276065843129234
+    second: enemigos bomberman_85
+  - first:
+      213: 285228928881171508
+    second: enemigos bomberman_86
+  - first:
+      213: 4277791481026381704
+    second: enemigos bomberman_87
+  - first:
+      213: -7083987465330243410
+    second: enemigos bomberman_88
+  - first:
+      213: 9204813216464056126
+    second: enemigos bomberman_89
+  - first:
+      213: -4616714151556857250
+    second: enemigos bomberman_90
+  - first:
+      213: -1195360413044776634
+    second: enemigos bomberman_91
+  - first:
+      213: -461363954223827413
+    second: enemigos bomberman_92
+  - first:
+      213: 3291807690844629381
+    second: enemigos bomberman_93
+  - first:
+      213: -4916376741505612495
+    second: enemigos bomberman_94
+  - first:
+      213: 4438179884672935700
+    second: enemigos bomberman_95
+  - first:
+      213: -8619594611846156557
+    second: enemigos bomberman_96
+  - first:
+      213: 2411667074172509746
+    second: enemigos bomberman_97
+  - first:
+      213: -6542637670183428397
+    second: enemigos bomberman_98
+  - first:
+      213: 433608537218927494
+    second: enemigos bomberman_99
+  - first:
+      213: 3899622763993587163
+    second: enemigos bomberman_100
+  - first:
+      213: -1690342570414972511
+    second: enemigos bomberman_101
+  - first:
+      213: 5734038745929670781
+    second: enemigos bomberman_102
+  - first:
+      213: -6272482447942775265
+    second: enemigos bomberman_103
+  - first:
+      213: 3189611584982592898
+    second: enemigos bomberman_104
+  - first:
+      213: -4301323015011926527
+    second: enemigos bomberman_105
+  - first:
+      213: 5809898117994858563
+    second: enemigos bomberman_106
+  - first:
+      213: -538603782590945575
+    second: enemigos bomberman_107
+  - first:
+      213: 4559092366485227781
+    second: enemigos bomberman_108
+  - first:
+      213: -7570536832613283908
+    second: enemigos bomberman_109
+  - first:
+      213: 6723231594876104067
+    second: enemigos bomberman_110
+  - first:
+      213: 2061281601767794594
+    second: enemigos bomberman_111
+  - first:
+      213: 7159305323908662323
+    second: enemigos bomberman_112
+  - first:
+      213: -3365802598471170700
+    second: enemigos bomberman_113
+  - first:
+      213: -5511966681418874238
+    second: enemigos bomberman_114
+  - first:
+      213: -7056944209814920351
+    second: enemigos bomberman_115
+  - first:
+      213: 1088605298854601715
+    second: enemigos bomberman_116
+  - first:
+      213: 684549638846661073
+    second: enemigos bomberman_117
+  - first:
+      213: -6085962530071122533
+    second: enemigos bomberman_118
+  - first:
+      213: -4670550617693362744
+    second: enemigos bomberman_119
+  - first:
+      213: -4282244078089193434
+    second: enemigos bomberman_120
+  - first:
+      213: 6871271226118926347
+    second: enemigos bomberman_121
+  - first:
+      213: 1396240131528008097
+    second: enemigos bomberman_122
+  - first:
+      213: -4800048919408569473
+    second: enemigos bomberman_123
+  - first:
+      213: -8234579674904071232
+    second: enemigos bomberman_124
+  - first:
+      213: 7932984378749486572
+    second: enemigos bomberman_125
+  - first:
+      213: 8369863026123708079
+    second: enemigos bomberman_126
+  - first:
+      213: 7811777168857135588
+    second: enemigos bomberman_127
+  - first:
+      213: -7273734822997959088
+    second: enemigos bomberman_128
+  - first:
+      213: -6796508432755891571
+    second: enemigos bomberman_129
+  - first:
+      213: 5061278413657178444
+    second: enemigos bomberman_130
+  - first:
+      213: 7237195842395566424
+    second: enemigos bomberman_131
+  - first:
+      213: -4885253551544801423
+    second: enemigos bomberman_132
+  - first:
+      213: -5666392922336872794
+    second: enemigos bomberman_133
+  - first:
+      213: 6929564093491604547
+    second: enemigos bomberman_134
+  - first:
+      213: 6817998698494182291
+    second: enemigos bomberman_135
+  - first:
+      213: 3084699790893381491
+    second: enemigos bomberman_136
+  - first:
+      213: 4729659808940141449
+    second: enemigos bomberman_137
+  - first:
+      213: 3266005731812729253
+    second: enemigos bomberman_138
+  - first:
+      213: -7390169909717866252
+    second: enemigos bomberman_139
+  - first:
+      213: 11891580604255811
+    second: enemigos bomberman_140
+  - first:
+      213: -1773495666368276188
+    second: enemigos bomberman_141
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemigos bomberman_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 264
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abce39a80eeb4dc0800000000000000
+      internalID: -3653564951714411607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 264
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03d875df05ac2a70800000000000000
+      internalID: 8803592859027034891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 264
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca9d0c81575343b0800000000000000
+      internalID: -5529479909727167796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 264
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e699d0758bcd6ac0800000000000000
+      internalID: -3860205531602250013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 263
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60495100cf1d3fb40800000000000000
+      internalID: 5472948852448662534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 263
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9a8c02a94e53110800000000000000
+      internalID: 1240148623036557814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_6
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 263
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cc7075f112f8c630800000000000000
+      internalID: 3947671232336395465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 264
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01329abd4f1cd3b80800000000000000
+      internalID: -8413355271456742640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_8
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 264
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bedbff6ddf184e0800000000000000
+      internalID: -1981023261210842210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 237
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be353db9bfe119ab0800000000000000
+      internalID: -5003183645031967765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 239
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87746ebcdef622270800000000000000
+      internalID: 8224258936650745720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_11
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 238
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53835ada1df587c60800000000000000
+      internalID: 7816102507467585589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_12
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 238
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d944d74884152a0800000000000000
+      internalID: -6750534632577131209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_13
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 238
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916697c15ee916f40800000000000000
+      internalID: 5720027708599658009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_14
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 237
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4383a47cc0a84b4a0800000000000000
+      internalID: -6578481368193681356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_15
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 241
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a21ccdc56543e00800000000000000
+      internalID: 1023537972160572055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_16
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 252
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabf99cdce98399e0800000000000000
+      internalID: -1615796190889509972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_17
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 252
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2aaee3603a2f88b0800000000000000
+      internalID: -5147849461737805268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_18
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 241
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9087f4453440e1520800000000000000
+      internalID: 2674579915928467465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_19
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 236
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec65c58d7ad39660800000000000000
+      internalID: 7391491646095191276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_20
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 238
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7c69194e9248200800000000000000
+      internalID: 181315946673522622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_21
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 213
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ca396eea12c0250800000000000000
+      internalID: 5912137445907082272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_22
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 213
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeea2af012ddd8170800000000000000
+      internalID: 8182439232068038378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_23
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 213
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3fc5bde5972bd00800000000000000
+      internalID: 986984716661748735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_24
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 213
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a932427bf2713290800000000000000
+      internalID: -7912416646033950297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_25
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 213
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae66e6e08c631ae0800000000000000
+      internalID: -1579799743391437146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_26
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 213
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e9562b53d3ba620800000000000000
+      internalID: 2786388095294348903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_27
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 213
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c8eaa844dce13a0800000000000000
+      internalID: -6692686301957813110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_28
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 213
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6455f8513114b84c0800000000000000
+      internalID: -4284259070290995898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_29
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 191
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f64ba81e20f2a9c0800000000000000
+      internalID: -3917304645085870351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_30
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 192
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70451b7907cad360800000000000000
+      internalID: 7195282198211412091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_31
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 193
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 787c509d43ba2c3a0800000000000000
+      internalID: -6646561856577747065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_32
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 191
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f23ef052ad78380800000000000000
+      internalID: -8968960280169861282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_33
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 191
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d3d23e893671700800000000000000
+      internalID: 510986591027412224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_34
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 191
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a701d1a2de7519600800000000000000
+      internalID: 473256111976026234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_35
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 191
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84c5399929583330800000000000000
+      internalID: 3690797929829090442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_36
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 191
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29589d1aac374200800000000000000
+      internalID: 164166612760942893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_37
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 173
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e37c6da309856f50800000000000000
+      internalID: 6874051055138403301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_38
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 173
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3197fdd0d6ea57f0800000000000000
+      internalID: -622931813685817025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_39
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 173
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2dd3d599205489e0800000000000000
+      internalID: -1620081826408964819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_40
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 173
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43f2ffbd9d195150800000000000000
+      internalID: 5861748953366852430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_41
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 155
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7240007ae5992250800000000000000
+      internalID: 5920428019289178751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_42
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 155
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1467a4ec6f05bed0800000000000000
+      internalID: -2398994266137861093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_43
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 173
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b77720077725590800000000000000
+      internalID: -7686950291006588154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_44
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 155
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ce5c5482c768bb0800000000000000
+      internalID: -4934119829326664556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_45
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 173
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9428c5b5af410eb10800000000000000
+      internalID: 2008628499314410057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_46
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 155
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d3d9da6e8a5c470800000000000000
+      internalID: 8414317187520347398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_47
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 173
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d219dda35b4c7330800000000000000
+      internalID: 3709923015817499350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_48
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 155
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9a3ff1776b35c50800000000000000
+      internalID: 6652861697309780438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 173
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5257ea5a16334de0800000000000000
+      internalID: -1350175976458857889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_50
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 155
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd43fab93c5a6690800000000000000
+      internalID: -7608167217469633074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_51
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 173
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa62c2fb419c6dec0800000000000000
+      internalID: -3542422965936445777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_52
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 173
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5a14aa0968e5370800000000000000
+      internalID: 8313229918062355927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_53
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 137
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5f9197f8dfe77b0800000000000000
+      internalID: -5224459725049301573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_54
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 155
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5797e180554e1040800000000000000
+      internalID: 4620206479807846235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_55
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 137
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de747720b21a9af0800000000000000
+      internalID: -388977870028636463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_56
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 155
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d54b81683a2e59d0800000000000000
+      internalID: -2783741098025335335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_57
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 137
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286c9f9bd94337780800000000000000
+      internalID: -8686541404232890750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_58
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 137
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa5019c9f38c6160800000000000000
+      internalID: 7020131028007148206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_59
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 137
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f240f34c260495960800000000000000
+      internalID: 7591169439853118511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_60
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 137
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ed6e9e07ddd3450800000000000000
+      internalID: 6070251349795593745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_61
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 137
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46c336d1da33ec70800000000000000
+      internalID: 8999101153332676175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 137
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0075818f6f633d450800000000000000
+      internalID: 6112289553624094464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_63
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 137
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435327fbf4cd8fd50800000000000000
+      internalID: 6771404274824000820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_64
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 137
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d2fe35b09652b10800000000000000
+      internalID: 1956085110536088982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_65
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 119
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b795aa5da6ed86b20800000000000000
+      internalID: 3127994491641420155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_66
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 101
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c74f7d3c19444900800000000000000
+      internalID: 667739030397339585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_67
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 119
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4eaf83381e0f4f0800000000000000
+      internalID: -796889180331645723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_68
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 101
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fd9d2b8a9ba1580800000000000000
+      internalID: -8855561583064391814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_69
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 119
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d305e2231bc46760800000000000000
+      internalID: 7450302966627894231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_70
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 101
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01a8355bf4d8be00800000000000000
+      internalID: 1060831888177406221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_71
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 119
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2d0933b6365c6e0800000000000000
+      internalID: -1817937562496347474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_72
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 101
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451f2fb8c4d020ce0800000000000000
+      internalID: -1440574308388507308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_73
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 119
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f23840474647c800800000000000000
+      internalID: 632551544503939833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_74
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 119
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b21a0673bbc02d0800000000000000
+      internalID: -3311065779505386606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_75
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 119
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8cf2b45ee47a3a0800000000000000
+      internalID: -6654263177700718359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_76
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 119
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd1b8a1bf6daf140800000000000000
+      internalID: 4754348730613439943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 101
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062a1ec6d728d1a50800000000000000
+      internalID: 6493489712947372640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_78
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 101
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c099bb3495e398750800000000000000
+      internalID: 6307641306218469644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_79
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 83
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ded9d183d7d2b40800000000000000
+      internalID: 5417123606765104522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_80
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 83
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b94456e0bf73cd70800000000000000
+      internalID: 9062227272954825142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_81
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 101
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d37126d30a10100800000000000000
+      internalID: 72515254513778061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_82
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 83
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46cd6c47bef841080800000000000000
+      internalID: -9217584295881286556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_83
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 101
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f997afca030ec0800800000000000000
+      internalID: 580084951689099679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_84
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 83
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c2c02a16d7a6030800000000000000
+      internalID: 3488738719635876924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_85
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 83
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29ba49996a5af8020800000000000000
+      internalID: 2346276065843129234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_86
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c90a9133655f300800000000000000
+      internalID: 285228928881171508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_87
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88705c1ffa4cd5b30800000000000000
+      internalID: 4277791481026381704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_88
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 84
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8cbafceee90bd90800000000000000
+      internalID: -7083987465330243410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_89
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 47
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f2927e9d01ebf70800000000000000
+      internalID: 9204813216464056126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_90
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 65
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e524fe680f22eefb0800000000000000
+      internalID: -4616714151556857250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_91
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 65
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641e6e1a90a396fe0800000000000000
+      internalID: -1195360413044776634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_92
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 65
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26b1549de7e899f0800000000000000
+      internalID: -461363954223827413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_93
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 65
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58961b177a9dead20800000000000000
+      internalID: 3291807690844629381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_94
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 47
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135c094d66585cbb0800000000000000
+      internalID: -4916376741505612495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_95
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 65
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417e6333715979d30800000000000000
+      internalID: 4438179884672935700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_96
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 47
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fee90d7e5c016880800000000000000
+      internalID: -8619594611846156557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_97
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 65
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ede882d66f77120800000000000000
+      internalID: 2411667074172509746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_98
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 47
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de90ae04b1e335a0800000000000000
+      internalID: -6542637670183428397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_99
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 65
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bc280daac740600800000000000000
+      internalID: 433608537218927494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 47
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd5dd52e3e3e1630800000000000000
+      internalID: 3899622763993587163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_101
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 65
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1e1b55362ba88e0800000000000000
+      internalID: -1690342570414972511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_102
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 47
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70e673fbd5639f40800000000000000
+      internalID: 5734038745929670781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_103
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 47
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e8f76527aa3f8a0800000000000000
+      internalID: -6272482447942775265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_104
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 29
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28dab5656d6c34c20800000000000000
+      internalID: 3189611584982592898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_105
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 47
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e700ad181ae44c0800000000000000
+      internalID: -4301323015011926527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_106
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 29
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3484b406e87e0a050800000000000000
+      internalID: 5809898117994858563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_107
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 47
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d62cff96be7688f0800000000000000
+      internalID: -538603782590945575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_108
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 29
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5090c8a2a56254f30800000000000000
+      internalID: 4559092366485227781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_109
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 47
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb703157cdc00f690800000000000000
+      internalID: -7570536832613283908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_110
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 29
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38de54ba387bd4d50800000000000000
+      internalID: 6723231594876104067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_111
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 29
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7ea6712b42b9c10800000000000000
+      internalID: 2061281601767794594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_112
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 29
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334832ea246fa5360800000000000000
+      internalID: 7159305323908662323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_113
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 14
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4750a069e544a41d0800000000000000
+      internalID: -3365802598471170700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_114
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 29
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2824d34c18f8183b0800000000000000
+      internalID: -5511966681418874238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_115
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 47
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1636b3661a2b01e90800000000000000
+      internalID: -7056944209814920351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_116
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 29
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f326da60c08b1f00800000000000000
+      internalID: 1088605298854601715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_117
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 29
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1c3960542008900800000000000000
+      internalID: 684549638846661073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_118
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 12
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9de5ced2515a8ba0800000000000000
+      internalID: -6085962530071122533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_119
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5e7e675fede2fb0800000000000000
+      internalID: -4670550617693362744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_120
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 14
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62839f303b96294c0800000000000000
+      internalID: -4282244078089193434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_121
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 20
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b007e2c46c8ab5f50800000000000000
+      internalID: 6871271226118926347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_122
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 15
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a12fd48001706310800000000000000
+      internalID: 1396240131528008097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_123
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73972680fcc26db0800000000000000
+      internalID: -4800048919408569473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_124
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3f0b21a65e8bd80800000000000000
+      internalID: -8234579674904071232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_125
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce50610034f971e60800000000000000
+      internalID: 7932984378749486572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_126
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa697caa31ab72470800000000000000
+      internalID: 8369863026123708079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_127
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e97c3e42f1096c60800000000000000
+      internalID: 7811777168857135588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_128
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e51d467b08e0b90800000000000000
+      internalID: -7273734822997959088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_129
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8263a00793fda1a0800000000000000
+      internalID: -6796508432755891571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_130
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c418363c6e54d3640800000000000000
+      internalID: 5061278413657178444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_131
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851fbeb364faf6460800000000000000
+      internalID: 7237195842395566424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_132
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177e47e27c7143cb0800000000000000
+      internalID: -4885253551544801423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_133
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6b252b8adec51b0800000000000000
+      internalID: -5666392922336872794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_134
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c6ed024d1ca2060800000000000000
+      internalID: 6929564093491604547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_135
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39342d661b56e9e50800000000000000
+      internalID: 6817998698494182291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_136
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377fbeacd1e0fca20800000000000000
+      internalID: 3084699790893381491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_137
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ba154998023a140800000000000000
+      internalID: 4729659808940141449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_138
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a16617b8ee235d20800000000000000
+      internalID: 3266005731812729253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_139
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 0
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f86c753f97d07990800000000000000
+      internalID: -7390169909717866252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_140
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e0cbd545f3a2000800000000000000
+      internalID: 11891580604255811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemigos bomberman_141
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4299c6b76174367e0800000000000000
+      internalID: -1773495666368276188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      enemigos bomberman_0: -3653564951714411607
+      enemigos bomberman_1: 8803592859027034891
+      enemigos bomberman_10: 8224258936650745720
+      enemigos bomberman_100: 3899622763993587163
+      enemigos bomberman_101: -1690342570414972511
+      enemigos bomberman_102: 5734038745929670781
+      enemigos bomberman_103: -6272482447942775265
+      enemigos bomberman_104: 3189611584982592898
+      enemigos bomberman_105: -4301323015011926527
+      enemigos bomberman_106: 5809898117994858563
+      enemigos bomberman_107: -538603782590945575
+      enemigos bomberman_108: 4559092366485227781
+      enemigos bomberman_109: -7570536832613283908
+      enemigos bomberman_11: 7816102507467585589
+      enemigos bomberman_110: 6723231594876104067
+      enemigos bomberman_111: 2061281601767794594
+      enemigos bomberman_112: 7159305323908662323
+      enemigos bomberman_113: -3365802598471170700
+      enemigos bomberman_114: -5511966681418874238
+      enemigos bomberman_115: -7056944209814920351
+      enemigos bomberman_116: 1088605298854601715
+      enemigos bomberman_117: 684549638846661073
+      enemigos bomberman_118: -6085962530071122533
+      enemigos bomberman_119: -4670550617693362744
+      enemigos bomberman_12: -6750534632577131209
+      enemigos bomberman_120: -4282244078089193434
+      enemigos bomberman_121: 6871271226118926347
+      enemigos bomberman_122: 1396240131528008097
+      enemigos bomberman_123: -4800048919408569473
+      enemigos bomberman_124: -8234579674904071232
+      enemigos bomberman_125: 7932984378749486572
+      enemigos bomberman_126: 8369863026123708079
+      enemigos bomberman_127: 7811777168857135588
+      enemigos bomberman_128: -7273734822997959088
+      enemigos bomberman_129: -6796508432755891571
+      enemigos bomberman_13: 5720027708599658009
+      enemigos bomberman_130: 5061278413657178444
+      enemigos bomberman_131: 7237195842395566424
+      enemigos bomberman_132: -4885253551544801423
+      enemigos bomberman_133: -5666392922336872794
+      enemigos bomberman_134: 6929564093491604547
+      enemigos bomberman_135: 6817998698494182291
+      enemigos bomberman_136: 3084699790893381491
+      enemigos bomberman_137: 4729659808940141449
+      enemigos bomberman_138: 3266005731812729253
+      enemigos bomberman_139: -7390169909717866252
+      enemigos bomberman_14: -6578481368193681356
+      enemigos bomberman_140: 11891580604255811
+      enemigos bomberman_141: -1773495666368276188
+      enemigos bomberman_15: 1023537972160572055
+      enemigos bomberman_16: -1615796190889509972
+      enemigos bomberman_17: -5147849461737805268
+      enemigos bomberman_18: 2674579915928467465
+      enemigos bomberman_19: 7391491646095191276
+      enemigos bomberman_2: -5529479909727167796
+      enemigos bomberman_20: 181315946673522622
+      enemigos bomberman_21: 5912137445907082272
+      enemigos bomberman_22: 8182439232068038378
+      enemigos bomberman_23: 986984716661748735
+      enemigos bomberman_24: -7912416646033950297
+      enemigos bomberman_25: -1579799743391437146
+      enemigos bomberman_26: 2786388095294348903
+      enemigos bomberman_27: -6692686301957813110
+      enemigos bomberman_28: -4284259070290995898
+      enemigos bomberman_29: -3917304645085870351
+      enemigos bomberman_3: -3860205531602250013
+      enemigos bomberman_30: 7195282198211412091
+      enemigos bomberman_31: -6646561856577747065
+      enemigos bomberman_32: -8968960280169861282
+      enemigos bomberman_33: 510986591027412224
+      enemigos bomberman_34: 473256111976026234
+      enemigos bomberman_35: 3690797929829090442
+      enemigos bomberman_36: 164166612760942893
+      enemigos bomberman_37: 6874051055138403301
+      enemigos bomberman_38: -622931813685817025
+      enemigos bomberman_39: -1620081826408964819
+      enemigos bomberman_4: 5472948852448662534
+      enemigos bomberman_40: 5861748953366852430
+      enemigos bomberman_41: 5920428019289178751
+      enemigos bomberman_42: -2398994266137861093
+      enemigos bomberman_43: -7686950291006588154
+      enemigos bomberman_44: -4934119829326664556
+      enemigos bomberman_45: 2008628499314410057
+      enemigos bomberman_46: 8414317187520347398
+      enemigos bomberman_47: 3709923015817499350
+      enemigos bomberman_48: 6652861697309780438
+      enemigos bomberman_49: -1350175976458857889
+      enemigos bomberman_5: 1240148623036557814
+      enemigos bomberman_50: -7608167217469633074
+      enemigos bomberman_51: -3542422965936445777
+      enemigos bomberman_52: 8313229918062355927
+      enemigos bomberman_53: -5224459725049301573
+      enemigos bomberman_54: 4620206479807846235
+      enemigos bomberman_55: -388977870028636463
+      enemigos bomberman_56: -2783741098025335335
+      enemigos bomberman_57: -8686541404232890750
+      enemigos bomberman_58: 7020131028007148206
+      enemigos bomberman_59: 7591169439853118511
+      enemigos bomberman_6: 3947671232336395465
+      enemigos bomberman_60: 6070251349795593745
+      enemigos bomberman_61: 8999101153332676175
+      enemigos bomberman_62: 6112289553624094464
+      enemigos bomberman_63: 6771404274824000820
+      enemigos bomberman_64: 1956085110536088982
+      enemigos bomberman_65: 3127994491641420155
+      enemigos bomberman_66: 667739030397339585
+      enemigos bomberman_67: -796889180331645723
+      enemigos bomberman_68: -8855561583064391814
+      enemigos bomberman_69: 7450302966627894231
+      enemigos bomberman_7: -8413355271456742640
+      enemigos bomberman_70: 1060831888177406221
+      enemigos bomberman_71: -1817937562496347474
+      enemigos bomberman_72: -1440574308388507308
+      enemigos bomberman_73: 632551544503939833
+      enemigos bomberman_74: -3311065779505386606
+      enemigos bomberman_75: -6654263177700718359
+      enemigos bomberman_76: 4754348730613439943
+      enemigos bomberman_77: 6493489712947372640
+      enemigos bomberman_78: 6307641306218469644
+      enemigos bomberman_79: 5417123606765104522
+      enemigos bomberman_8: -1981023261210842210
+      enemigos bomberman_80: 9062227272954825142
+      enemigos bomberman_81: 72515254513778061
+      enemigos bomberman_82: -9217584295881286556
+      enemigos bomberman_83: 580084951689099679
+      enemigos bomberman_84: 3488738719635876924
+      enemigos bomberman_85: 2346276065843129234
+      enemigos bomberman_86: 285228928881171508
+      enemigos bomberman_87: 4277791481026381704
+      enemigos bomberman_88: -7083987465330243410
+      enemigos bomberman_89: 9204813216464056126
+      enemigos bomberman_9: -5003183645031967765
+      enemigos bomberman_90: -4616714151556857250
+      enemigos bomberman_91: -1195360413044776634
+      enemigos bomberman_92: -461363954223827413
+      enemigos bomberman_93: 3291807690844629381
+      enemigos bomberman_94: -4916376741505612495
+      enemigos bomberman_95: 4438179884672935700
+      enemigos bomberman_96: -8619594611846156557
+      enemigos bomberman_97: 2411667074172509746
+      enemigos bomberman_98: -6542637670183428397
+      enemigos bomberman_99: 433608537218927494
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

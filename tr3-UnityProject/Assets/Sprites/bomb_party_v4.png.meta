@@ -1,0 +1,1170 @@
+fileFormatVersion: 2
+guid: f4354d3bcb038b946a38cdabe505d157
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7669694204105715053
+    second: bomb_party_v4_0
+  - first:
+      213: -833094975653776306
+    second: bomb_party_v4_1
+  - first:
+      213: 3594132192085093470
+    second: bomb_party_v4_2
+  - first:
+      213: -3149254823621896892
+    second: bomb_party_v4_3
+  - first:
+      213: -4355035652319145360
+    second: bomb_party_v4_4
+  - first:
+      213: 544164283933538965
+    second: bomb_party_v4_5
+  - first:
+      213: -7071068374581591648
+    second: bomb_party_v4_6
+  - first:
+      213: -7366769580380345237
+    second: bomb_party_v4_7
+  - first:
+      213: -7376748491200851638
+    second: bomb_party_v4_8
+  - first:
+      213: -3251058147948476022
+    second: bomb_party_v4_9
+  - first:
+      213: 8598515538166288167
+    second: bomb_party_v4_10
+  - first:
+      213: 5330009981468727990
+    second: bomb_party_v4_11
+  - first:
+      213: -4717698671816309793
+    second: bomb_party_v4_12
+  - first:
+      213: -8828166826083601113
+    second: bomb_party_v4_13
+  - first:
+      213: 5007132520651085285
+    second: bomb_party_v4_14
+  - first:
+      213: -8741817385596835694
+    second: bomb_party_v4_15
+  - first:
+      213: 6122797493949284474
+    second: bomb_party_v4_16
+  - first:
+      213: 6201913514250363334
+    second: bomb_party_v4_17
+  - first:
+      213: 1901320871663503510
+    second: bomb_party_v4_18
+  - first:
+      213: -7198610106931851893
+    second: bomb_party_v4_19
+  - first:
+      213: 7203726129145231461
+    second: bomb_party_v4_20
+  - first:
+      213: -7607098377276675994
+    second: bomb_party_v4_21
+  - first:
+      213: -917212118400123251
+    second: bomb_party_v4_22
+  - first:
+      213: -6042968958141343033
+    second: bomb_party_v4_23
+  - first:
+      213: 3666251808018609418
+    second: bomb_party_v4_24
+  - first:
+      213: -6412450093451444887
+    second: bomb_party_v4_25
+  - first:
+      213: -7699844525132237381
+    second: bomb_party_v4_26
+  - first:
+      213: -7644596867457826452
+    second: bomb_party_v4_27
+  - first:
+      213: 2389003594664043226
+    second: bomb_party_v4_28
+  - first:
+      213: 7783674796117682578
+    second: bomb_party_v4_29
+  - first:
+      213: -8770372161925627299
+    second: bomb_party_v4_30
+  - first:
+      213: -4852432335672181331
+    second: bomb_party_v4_31
+  - first:
+      213: -4352645903575711982
+    second: bomb_party_v4_32
+  - first:
+      213: -7399873860857132563
+    second: bomb_party_v4_33
+  - first:
+      213: 2009853540700469237
+    second: bomb_party_v4_34
+  - first:
+      213: -2550612534407330651
+    second: bomb_party_v4_35
+  - first:
+      213: -5380799976700018876
+    second: bomb_party_v4_36
+  - first:
+      213: -7422212384988490017
+    second: bomb_party_v4_37
+  - first:
+      213: -8276438553874563297
+    second: bomb_party_v4_38
+  - first:
+      213: 3926654437664051978
+    second: bomb_party_v4_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bomb_party_v4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6de79b2e3a307a60800000000000000
+      internalID: 7669694204105715053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 49
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e447ef798804074f0800000000000000
+      internalID: -833094975653776306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 49
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c2709af2ce0e130800000000000000
+      internalID: 3594132192085093470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 48
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445d4d26c699b44d0800000000000000
+      internalID: -3149254823621896892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 64
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0721b5fe52ecf83c0800000000000000
+      internalID: -4355035652319145360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 48
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a305b78824d8700800000000000000
+      internalID: 544164283933538965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_6
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 17
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1c09607c48edd90800000000000000
+      internalID: -7071068374581591648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_7
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 15
+        width: 13
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ca643f81af3c990800000000000000
+      internalID: -7366769580380345237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_8
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 15
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a411398b45680a990800000000000000
+      internalID: -7376748491200851638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_9
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 15
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89446bd6dbe1e2d0800000000000000
+      internalID: -3251058147948476022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_10
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 64
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72f04183350145770800000000000000
+      internalID: 8598515538166288167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 48
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6badabaa6dff7f940800000000000000
+      internalID: 5330009981468727990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_12
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 64
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd38e0dad0e578eb0800000000000000
+      internalID: -4717698671816309793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_13
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 48
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72536699b0d0c7580800000000000000
+      internalID: -8828166826083601113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_14
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 50
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5d6b4af78ec7540800000000000000
+      internalID: 5007132520651085285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_15
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 32
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298aa286763dea680800000000000000
+      internalID: -8741817385596835694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_16
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 48
+        width: 14
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70cf7a71eb88f450800000000000000
+      internalID: 6122797493949284474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_17
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 49
+        width: 13
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c166986b7f911650800000000000000
+      internalID: 6201913514250363334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6980a875249d26a10800000000000000
+      internalID: 1901320871663503510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_19
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 33
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d4ac36f36691c90800000000000000
+      internalID: -7198610106931851893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_20
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 32
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568b6ea5fb6c8f360800000000000000
+      internalID: 7203726129145231461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_21
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 32
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66829fa74582e6690800000000000000
+      internalID: -7607098377276675994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_22
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 32
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8eb31b10786543f0800000000000000
+      internalID: -917212118400123251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_23
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 32
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cad545efbf032ca0800000000000000
+      internalID: -6042968958141343033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_24
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 34
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a053512489421e230800000000000000
+      internalID: 3666251808018609418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_25
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96df7e75d966207a0800000000000000
+      internalID: -6412450093451444887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_26
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 32
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5b1cd2338a42590800000000000000
+      internalID: -7699844525132237381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_27
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61cc10e6afe8e590800000000000000
+      internalID: -7644596867457826452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_28
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 34
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2e413ac12772120800000000000000
+      internalID: 2389003594664043226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29961c5ccfa250c60800000000000000
+      internalID: 7783674796117682578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_30
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 61
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52c2747cf0694680800000000000000
+      internalID: -8770372161925627299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_31
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 15
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadf3afff72b8acb0800000000000000
+      internalID: -4852432335672181331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f7f4cac9b4893c0800000000000000
+      internalID: -4352645903575711982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de989e40eed5e4990800000000000000
+      internalID: -7399873860857132563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_34
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 16
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f73308852f64eb10800000000000000
+      internalID: 2009853540700469237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 17
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a40ef6e9676a9cd0800000000000000
+      internalID: -2550612534407330651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_36
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 18
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f7d5d0eee8355b0800000000000000
+      internalID: -5380799976700018876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_37
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6914119210ff890800000000000000
+      internalID: -7422212384988490017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_38
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1
+        width: 48
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f75f65cfe242d80800000000000000
+      internalID: -8276438553874563297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bomb_party_v4_39
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a035da028674e7630800000000000000
+      internalID: 3926654437664051978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bomb_party_v4_0: 7669694204105715053
+      bomb_party_v4_1: -833094975653776306
+      bomb_party_v4_10: 8598515538166288167
+      bomb_party_v4_11: 5330009981468727990
+      bomb_party_v4_12: -4717698671816309793
+      bomb_party_v4_13: -8828166826083601113
+      bomb_party_v4_14: 5007132520651085285
+      bomb_party_v4_15: -8741817385596835694
+      bomb_party_v4_16: 6122797493949284474
+      bomb_party_v4_17: 6201913514250363334
+      bomb_party_v4_18: 1901320871663503510
+      bomb_party_v4_19: -7198610106931851893
+      bomb_party_v4_2: 3594132192085093470
+      bomb_party_v4_20: 7203726129145231461
+      bomb_party_v4_21: -7607098377276675994
+      bomb_party_v4_22: -917212118400123251
+      bomb_party_v4_23: -6042968958141343033
+      bomb_party_v4_24: 3666251808018609418
+      bomb_party_v4_25: -6412450093451444887
+      bomb_party_v4_26: -7699844525132237381
+      bomb_party_v4_27: -7644596867457826452
+      bomb_party_v4_28: 2389003594664043226
+      bomb_party_v4_29: 7783674796117682578
+      bomb_party_v4_3: -3149254823621896892
+      bomb_party_v4_30: -8770372161925627299
+      bomb_party_v4_31: -4852432335672181331
+      bomb_party_v4_32: -4352645903575711982
+      bomb_party_v4_33: -7399873860857132563
+      bomb_party_v4_34: 2009853540700469237
+      bomb_party_v4_35: -2550612534407330651
+      bomb_party_v4_36: -5380799976700018876
+      bomb_party_v4_37: -7422212384988490017
+      bomb_party_v4_38: -8276438553874563297
+      bomb_party_v4_39: 3926654437664051978
+      bomb_party_v4_4: -4355035652319145360
+      bomb_party_v4_5: 544164283933538965
+      bomb_party_v4_6: -7071068374581591648
+      bomb_party_v4_7: -7366769580380345237
+      bomb_party_v4_8: -7376748491200851638
+      bomb_party_v4_9: -3251058147948476022
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
